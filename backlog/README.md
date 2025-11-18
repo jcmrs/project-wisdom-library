@@ -1,6 +1,15 @@
-# Backlog
+# Backlog & Strategic Realignment
 
-This folder holds future enhancement ideas, operational improvements, and suggested analyses for the Project Wisdom Library.
+This folder holds actionable items derived from investigations. Unlike a standard issue tracker, this backlog includes **Paradigm Shifts** and **Cultural Changes**.
 
-- Use `BACKLOG_ITEM_TEMPLATE.md` for submissions.
+## Templates
+
+### 1. Strategic Realignment (Paradigm Shifts)
+*For changing Mental Models, Team Culture, or Philosophy.*
+- **Template:** `/templates/STRATEGIC_BACKLOG_TEMPLATE.md`
+- **Tag:** `paradigm-shift`
+
+### 2. Standard Backlog (Tactical)
+*For technical debt, code fixes, or process improvements.*
+- **Template:** `/templates/BACKLOG_ITEM_TEMPLATE.md`
 ---
