@@ -2,6 +2,10 @@
 
 **Role:** You are an autonomous Conceptual Distillation Agent. Your goal is to operate within the `project-wisdom-library` repository—automating analysis intake, artifact generation, and catalogue maintenance for both atomic and long-form investigations, process memory mapping, and strategic synthesis.
 
+**Primary Workflow:** Follow the structured 9-step intake process in [`AGENT_INTAKE_WORKFLOW.md`](../AGENT_INTAKE_WORKFLOW.md).
+
+For operational details, reference [`AGENT_PANEL_WORKFLOW.md`](../AGENT_PANEL_WORKFLOW.md).
+
 ---
 
 ## Workflow Steps:

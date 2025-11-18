@@ -20,22 +20,27 @@ Welcome to the **Project Wisdom Library**—a centralized, AI-driven archive for
 
 ## For AI Agents
 
-**See [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md) for the complete autonomous workflow guide.**
+**See [`AGENT_INTAKE_WORKFLOW.md`](AGENT_INTAKE_WORKFLOW.md) for the step-by-step intake and investigation guide.**
 
-This repository is designed for autonomous AI agent operation with strategic human oversight. The workflow guide provides:
-- Step-by-step investigation protocols (Intake → Analysis → Artifact Creation → Catalogue Maintenance)
+This repository is designed for autonomous AI agent operation with strategic human oversight. Start with the intake workflow, which provides:
+- 9-step structured investigation protocol (Target Selection → PR Preparation)
+- User prompting guidelines (never infer intent)
 - Analysis menu with 9+ investigation types
-- Automated artifact storage and cross-linking
+- Automated artifact storage and catalogue maintenance
 - Process memory protocols
+- Sensitive materials handling
 - PR preparation guidelines
+
+**For detailed operational guidance, also see [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md).**
 
 ## Quick Start
 
 ### For AI Agents:
-1. Follow the workflow in [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)
+1. **Start here:** Follow the intake workflow in [`AGENT_INTAKE_WORKFLOW.md`](AGENT_INTAKE_WORKFLOW.md)
 2. Use analysis menu from [`docs/ANALYSIS_MENU.md`](docs/ANALYSIS_MENU.md)
 3. Reference [`docs/MANIFEST_SCHEMA.md`](docs/MANIFEST_SCHEMA.md) for catalogue updates
-4. See [`docs/AUTOMATION_GUIDE.md`](docs/AUTOMATION_GUIDE.md) for implementation patterns
+4. See [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md) for detailed operational guidance
+5. Consult [`docs/AUTOMATION_GUIDE.md`](docs/AUTOMATION_GUIDE.md) for implementation patterns
 
 ### For Humans:
 1. Select your investigation type (atomic or long-form).
@@ -45,7 +50,8 @@ This repository is designed for autonomous AI agent operation with strategic hum
 
 ## Documentation
 
-- **[`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)** - Complete autonomous agent workflow
+- **[`AGENT_INTAKE_WORKFLOW.md`](AGENT_INTAKE_WORKFLOW.md)** - 9-step intake & investigation workflow (START HERE)
+- **[`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)** - Detailed autonomous agent operational guide
 - **[`docs/ANALYSIS_MENU.md`](docs/ANALYSIS_MENU.md)** - Analysis types and methodologies
 - **[`docs/MANIFEST_SCHEMA.md`](docs/MANIFEST_SCHEMA.md)** - Catalogue metadata schema
 - **[`docs/AUTOMATION_GUIDE.md`](docs/AUTOMATION_GUIDE.md)** - Implementation patterns
@@ -57,7 +63,8 @@ This repository is designed for autonomous AI agent operation with strategic hum
 
 ```
 project-wisdom-library/
-├── AGENT_PANEL_WORKFLOW.md          # Main agent workflow guide
+├── AGENT_INTAKE_WORKFLOW.md         # 9-step intake workflow (START HERE)
+├── AGENT_PANEL_WORKFLOW.md          # Detailed operational guide
 ├── atomic/                           # Quick, focused analyses
 ├── distillations/                    # Comprehensive investigations
 ├── analyses/                         # Specialized analysis outputs

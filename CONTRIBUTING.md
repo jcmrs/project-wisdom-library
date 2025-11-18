@@ -7,21 +7,33 @@
 
 ## For AI Agents: Automated Workflow
 
-**See the complete agent workflow guide:** [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)
+**Primary Workflow Guide:** [`AGENT_INTAKE_WORKFLOW.md`](AGENT_INTAKE_WORKFLOW.md)
 
-This comprehensive guide provides:
-- Step-by-step investigation protocols
-- Analysis menu and methodologies
-- Artifact creation and storage workflows
-- Catalogue and manifest maintenance
-- Process memory protocols
-- PR preparation guidelines
+This is your primary entry point for initiating new investigations. It provides a structured 9-step intake process:
+1. Target Selection (Repository or Document)
+2. Investigation Type (Atomic or Long-Form)
+3. Analysis Menu Presentation
+4. Strategic & Subjective Context Gathering
+5. Automated Investigation Execution
+6. Artifacts & Storage with Catalogue Updates
+7. Post-Analysis Steps (Process Memory, Cross-linking)
+8. Sensitive Materials Handling
+9. Pull Request Preparation
+
+**Detailed Operational Guide:** [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)
+
+For comprehensive implementation details and advanced workflows, see the operational guide which provides:
+- Detailed investigation protocols
+- Analysis methodologies
+- Artifact creation workflows
+- Best practices and examples
 
 **Quick Start:**
-1. Follow the 9-step workflow in `AGENT_PANEL_WORKFLOW.md`
+1. Follow the 9-step workflow in `AGENT_INTAKE_WORKFLOW.md` (primary intake)
 2. Use analysis menu in `docs/ANALYSIS_MENU.md` to guide investigation
 3. Reference `docs/MANIFEST_SCHEMA.md` for catalogue updates
-4. Consult `docs/AUTOMATION_GUIDE.md` for implementation patterns
+4. Consult `AGENT_PANEL_WORKFLOW.md` for detailed operational guidance
+5. Review `docs/AUTOMATION_GUIDE.md` for implementation patterns
 
 ## Standard Workflow (Summary)
 
@@ -47,7 +59,8 @@ This comprehensive guide provides:
 
 ## Documentation Resources
 
-- **`AGENT_PANEL_WORKFLOW.md`** - Complete autonomous agent workflow
+- **`AGENT_INTAKE_WORKFLOW.md`** - Structured 9-step intake workflow (START HERE)
+- **`AGENT_PANEL_WORKFLOW.md`** - Detailed autonomous agent operational guide
 - **`docs/ANALYSIS_MENU.md`** - Detailed analysis type descriptions
 - **`docs/MANIFEST_SCHEMA.md`** - Catalogue metadata schema
 - **`docs/AUTOMATION_GUIDE.md`** - Implementation patterns for agents
