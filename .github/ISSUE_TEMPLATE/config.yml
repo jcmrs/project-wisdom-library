@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Conceptual Investigation Intake
+    url: .github/ISSUE_TEMPLATE/intake.md
+    about: Use this template for all new conceptual analysis requests.
+  - name: Report a Bug in the Library
+    url: https://github.com/OWNER/REPOSITORY/issues/new
+    about: Report any functional issues with the Wisdom Library code or workflow.
