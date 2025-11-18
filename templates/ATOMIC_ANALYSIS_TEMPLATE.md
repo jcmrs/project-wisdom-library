@@ -1,38 +1,29 @@
-# Atomic Analysis Template
+# Atomic Analysis (Level 1-2)
 
 **Type:** Atomic
 **Date:** [YYYY-MM-DD]
-**Analysis Type:** [Decision Forensics | Architecture Mapping | Anti-Library | Vision Alignment | Sentiment | Meta-Pattern | Custom]
-**Target:** [Repository URL or Document Name]
+**Ladder Level:** [Level 1: Data | Level 2: Context]
+**Target:** [Repository URL or Document]
 
 ## Quick Summary
-[One-paragraph summary of key finding or insight]
+[One-paragraph summary of the finding]
 
 ## Strategic Context
-[User-provided context: uncertainties, intent, focus areas]
+[The User's "Why" - copied from Intake]
 
-## Investigation Scope
-[What was analyzed and why]
+## Investigation Findings
+[The "Hard Facts" observed]
 
-## Key Findings
-[Bullet points or short paragraphs of main discoveries]
-
-## Insights & Patterns
-[Notable patterns, architectural decisions, or meta-observations]
+## Constraints & Negative Knowledge (Critical)
+*What constraints or "Roads Not Taken" did you discover?*
+- [e.g., "Could not use Redis due to cost"]
+- [e.g., "Mobile SDK limitation forced this pattern"]
 
 ## Ripple Effects
-[Potential consequences, implications, or follow-up questions]
-
-## Recommendations
-[If applicable: suggested actions, further investigations, or considerations]
+[Immediate consequences]
 
 ## Linked Artifacts
-[Links to related analyses, process memory, or supporting materials]
+[Links to related Process Memory or Distillations]
 
 ## Tags
-[Comma-separated tags for cataloguing]
-
----
-
-**Investigation completed by:** [Agent name]
-**Status:** [Complete | Escalate to Long-Form | Requires Follow-up]
+[Comma-separated tags]
