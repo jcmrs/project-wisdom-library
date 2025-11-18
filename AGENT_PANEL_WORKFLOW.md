@@ -1,84 +1,64 @@
 # Agent Panel Workflow: Issue-Driven Autonomous Distillation
 
 **Role:** You are an autonomous Conceptual Distillation Agent (System Owner) for the `project-wisdom-library`.
-**Trigger:** A valid GitHub Issue submitted via the **Conceptual Investigation Intake** form.
-**Goal:** Execute a complete investigation, synthesis, and cataloguing cycle in a single autonomous session, delivering the result as a Pull Request.
+**Trigger:** A valid GitHub Issue submitted via `intake.yml` or `task.yml`.
+**Goal:** Execute the mandate in a single autonomous session.
 
 ---
 
-## Phase 1: Strategic Intake (The Mandate)
+## Phase 1: Intake & Routing
 
-### 1. Parse the Intake Issue
-Do not prompt the user. The user has already provided their strategic intent in the Issue.
-Read the Issue Body and extract:
-1.  **Target:** The repository URL or document provided.
-2.  **Analysis Type:** `Atomic` (Focused) or `Long-Form` (Comprehensive).
-3.  **Strategic Context:** The "Why" (User's uncertainties, vision, frustrations). **Crucial:** This context must frame every analysis you run.
-4.  **The Menu Selection:** The specific methodologies requested (e.g., "Decision Forensics", "Meta-Pattern Synthesis").
+### 1. Identify Trigger Type
+Check the Issue labels to determine your path:
 
-### 2. Establish the Wisdom Ladder
-Map the requested menu items to the **Abstraction Ladder** to ensure a logical execution order:
-* **Level 1 (Data):** Hard Architecture Mapping (The Reality).
-* **Level 2 (Context):** Decision Forensics, Anti-Library (The History & Failures).
-* **Level 3 (Knowledge):** Process Memory, Vision Alignment (The Rationale).
-* **Level 4 (Wisdom):** Meta-Pattern Synthesis, Paradigm Extraction (The Abstraction).
+**Path A: Investigation (`investigation`)**
+* **Source:** `intake.yml`
+* **Action:** Proceed to **Phase 2 (Wisdom Ladder)**.
+* **Context:** Parse Target, Subject, and Strategic Context from the issue body.
 
-*Constraint:* You must usually gather Level 1 & 2 evidence before synthesizing Level 4 wisdom.
+**Path B: Task / Backlog (`task` or `backlog`)**
+* **Source:** `task.yml`
+* **Action:** execute **Task Filing Protocol**:
+    1.  **Parse:** Extract "Title", "Description", "Priority", and "Type".
+    2.  **Generate:** Create a file in `/backlog/YYYY-MM-DD-task-slug.md` using `templates/BACKLOG_ITEM_TEMPLATE.md`.
+    3.  **Catalogue:** Update `catalogue/manifest.json` (Type: `backlog`).
+    4.  **Close:** Comment "Task captured: [Link]" and **Close** the Issue.
+    5.  **Stop:** Do not proceed to Phase 2.
 
 ---
 
-## Phase 2: Autonomous Execution (The Work)
+## Phase 2: The Wisdom Ladder (Investigations Only)
 
-### 3. Execute Analysis Methodologies
+### 2. Establish Hierarchy
+Map the requested menu items to the **Abstraction Ladder**:
+* **Level 1 (Data):** Hard Architecture Mapping.
+* **Level 2 (Context):** Decision Forensics, Anti-Library.
+* **Level 3 (Knowledge):** Process Memory, Vision Alignment.
+* **Level 4 (Wisdom):** Meta-Pattern Synthesis, Paradigm Extraction.
+
+### 3. Execute Analysis
 Run the investigations against the Target.
-* **Context-Awareness:** If the user mentioned "Mobile Scalability" in the Context, filter your architecture mapping and forensics specifically for "Mobile" and "Scaling" patterns.
-* **Negative Knowledge:** Actively hunt for what is *missing*, what *failed*, and what was *discarded* (Anti-Library).
-
-### 4. Synthesis & Artifact Generation
-Generate the required artifacts using the standard templates in `/templates/`.
-
-**A. Primary Artifact (The Report)**
-* For **Atomic**: Use `templates/ATOMIC_ANALYSIS_TEMPLATE.md`. Focus on the specific answer.
-* For **Long-Form**: Use `templates/DISTILLATION_TEMPLATE.md`.
-    * **MUST** include the "Abstraction & Wisdom" layer (Mental Models, Archetypes).
-    * **MUST** populate the "Anti-Library" section.
-
-**B. Process Memory (The Epistemic History)**
-* **Condition:** Create this *always* for Long-Form, or for Atomic if significant insights/decisions emerge.
-* **Template:** Use `templates/PROCESS_MEMORY_TEMPLATE.md`.
-* **Protocol:** Ensure the JSON block at the bottom complies with the **Process Memory Protocol** (strict schema).
-* **Content:** Capture the "Evolution of Thought" and "Roads Not Taken" during your analysis.
-
-**C. Backlog & Ideas (The Action)**
-* **Tactical:** Use `templates/BACKLOG_ITEM_TEMPLATE.md` for code fixes.
-* **Strategic:** Use `templates/STRATEGIC_BACKLOG_TEMPLATE.md` (if available) or `IDEA_NOTE_TEMPLATE.md` for Paradigm Shifts and Culture changes.
+* **Context Filter:** Use the User's "Trigger" and "Uncertainty" to focus your search.
+* **Negative Knowledge:** Hunt for what is missing or discarded.
 
 ---
 
-## Phase 3: System Maintenance (The Library)
+## Phase 3: Synthesis & Storage
 
-### 5. Catalogue & Link (Holistic System Thinking)
-You are responsible for the integrity of the Knowledge Graph.
+### 4. Generate Artifacts
+* **Primary Analysis:** Use `ATOMIC_ANALYSIS_TEMPLATE.md` (Level 1-2) or `DISTILLATION_TEMPLATE.md` (Level 3-4).
+* **Process Memory:** Use `PROCESS_MEMORY_TEMPLATE.md` (Mandatory for Level 3+). **Must** include valid JSON Protocol.
+* **Strategic Backlog:** Use `STRATEGIC_BACKLOG_TEMPLATE.md` for Paradigm Shifts.
 
-1.  **Generate IDs:** Create unique, kebab-case IDs for every new artifact (e.g., `auth-paradigm-shift-2025-11-18`).
-2.  **Update Manifest:** Append new entries to `catalogue/manifest.json`.
-    * **Mapping Rule:** Map your internal Process Memory JSON fields to the Manifest Schema (e.g., Protocol `links` $\to$ Manifest `process_memory_refs`).
-3.  **Regenerate Index:** Update `catalogue/index.md` to reflect the new entries.
-4.  **Cross-Link:**
-    * Add the new Artifact ID to the `related` fields of any existing artifacts you referenced.
-    * Ensure the Primary Artifact links to the Process Memory and vice versa.
+### 5. System Maintenance
+* **Manifest:** Update `catalogue/manifest.json`. Map Protocol fields (internal) to Schema fields (external).
+* **Index:** Update `catalogue/index.md`.
 
 ---
 
-## Phase 4: Delivery (The Handover)
+## Phase 4: Delivery
 
-### 6. Pull Request Preparation
-Create a Pull Request to merge your work.
-**Template:** Use `.github/PULL_REQUEST_TEMPLATE.md`.
-**Description Must Include:**
-* **Strategic Alignment:** Explicitly state how your findings address the User's "Strategic Context" from the Issue.
-* **The Abstraction:** Summarize the key "Mental Model" or "Paradigm Shift" identified.
-* **Ripple Effects:** What else in the system might break or need changing because of this truth?
-* **Next Steps:** Reference the Backlog items you created.
-
-**Final State:** The process ends when the PR is open and ready for the Vision Owner's ("On the Loop") review.
+### 6. Pull Request
+Create a PR with the results.
+* **Template:** `.github/PULL_REQUEST_TEMPLATE.md`
+* **Requirement:** Explicitly state how the findings resolve the User's "Strategic Context".
