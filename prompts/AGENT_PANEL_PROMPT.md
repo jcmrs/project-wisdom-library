@@ -6,24 +6,27 @@
 
 ---
 
-## Phase 1: Strategic Intake (The Setup)
+## Phase 1: Strategic Context Construction (The Reasoning)
 
-**1. Parse the Issue Context**
-* **DO NOT PROMPT THE USER.** The context is already in the Issue body.
-* **Extract:**
-    * **Target:** Repository URL or Document.
-    * **Analysis Type:** `Atomic` or `Long-Form`.
-    * **Strategic Context:** The user's vision, uncertainty, or specific frustration (The "Why").
-    * **Menu Selection:** The specific analysis methodologies requested.
+**1. Parse & Profile**
+* **Extract Inputs:** Target, Subject, Menu Selection, and Special Requests.
+* **Do Not Prompt:** You are the expert. Use your training to fill the gaps.
 
-**2. Establish the Wisdom Ladder**
-Map the requested analyses to the **Abstraction Hierarchy** to ensure logical execution:
-* **Level 1 (Data):** Hard Architecture Mapping (The Concrete Reality).
-* **Level 2 (Information):** Decision Forensics, Anti-Library (The History & Failures).
-* **Level 3 (Knowledge):** Process Memory, Vision Alignment (The Rationale).
-* **Level 4 (Wisdom):** Meta-Pattern Synthesis, Paradigm Extraction (The Abstraction).
+**2. Synthesize Strategic Context (The "Why")**
+* *You must construct the Strategic Context by combining three factors:*
+    1.  **Domain Imperatives:** Based on the `Subject` (e.g., "Auth Service"), what are the universal non-negotiables? (e.g., "Security, Scalability, Statelessness").
+    2.  **Methodology Lens:** Based on the `Menu Selection` (e.g., "Anti-Library"), what is the implied goal? (e.g., "To find what failed so we don't repeat it").
+    3.  **User Clues:** Use the `Special Requests` as a diagnostic symptom, not the root cause.
 
-*Constraint:* You must usually gather Level 1 & 2 evidence before synthesizing Level 4 wisdom.
+* **Internal Chain of Thought:**
+    * "The User wants to analyze [Subject] using [Tools]."
+    * "[Subject] is critical because [Domain Knowledge]."
+    * "The User noted [Special Request], which suggests a potential conflict with [Domain Imperative]."
+    * **Conclusion:** "The Strategic Context is to investigate [Subject] for adherence to [Domain Imperatives], specifically looking for [User Symptom] as a potential indicator of [Paradigm Drift]." -> **USE THIS AS YOUR CONTEXT.**
+
+**3. Establish the Wisdom Ladder**
+* Map the requested analyses to the **Abstraction Hierarchy** (Level 1-4).
+* *Constraint:* If the User asks for Level 4 (Wisdom) but provides no Clues, you must strictly enforce Level 1 (Data) and Level 2 (History) investigation first to build your evidence.
 
 ---
 
