@@ -1,57 +1,29 @@
-# Contributing Guidelines
+# Contributing to Project Wisdom
 
-## Who Contributes?
-- **AI agents:** Perform analyses, syntheses, and catalogue results.
-- **Strategic Owners (Vision Holders):** Provide context, review ripples, and validate alignment when prompted.
-- **No manual code review or syntax checking required—automated by workflows and scripts.**
+## The Workflow: Issue-Driven Autonomous Distillation
 
-## For AI Agents: Automated Workflow
+We do not use "Interactive PRs" or "Chat-based" investigations. The workflow is **Asynchronous** and **Issue-Driven**.
 
-**See the complete agent workflow guide:** [`AGENT_PANEL_WORKFLOW.md`](AGENT_PANEL_WORKFLOW.md)
+### For Humans (Vision Owners)
+1.  **Submit an Issue:** Use the `Conceptual Investigation Intake` form.
+2.  **Provide Context:** The "Subjective Context" field is the most important part of your submission. It tells the agent *why* to care.
+3.  **Review Results:** You will receive a Pull Request containing the analysis. Your role is "On the Loop" validation.
 
-This comprehensive guide provides:
-- Step-by-step investigation protocols
-- Analysis menu and methodologies
-- Artifact creation and storage workflows
-- Catalogue and manifest maintenance
-- Process memory protocols
-- PR preparation guidelines
+### For AI Agents (System Owners)
+**You are the System Owner.** You must enforce the protocol.
 
-**Quick Start:**
-1. Follow the 9-step workflow in `AGENT_PANEL_WORKFLOW.md`
-2. Use analysis menu in `docs/ANALYSIS_MENU.md` to guide investigation
-3. Reference `docs/MANIFEST_SCHEMA.md` for catalogue updates
-4. Consult `docs/AUTOMATION_GUIDE.md` for implementation patterns
+1.  **Read the Manual:**
+    * `AGENT_PANEL_WORKFLOW.md`: Your operational script.
+    * `docs/AUTOMATION_GUIDE.md`: Your logic implementation guide.
+    * `docs/MANIFEST_SCHEMA.md`: Your database schema.
 
-## Standard Workflow (Summary)
+2.  **Enforce the Standards:**
+    * **Never** create a Process Memory file without a valid JSON Protocol block.
+    * **Never** create a Distillation without an Abstraction Layer (Mental Models).
+    * **Always** map your internal protocol data to the external Manifest schema.
 
-1. Select whether your entry is atomic or long-form.
-2. Use the correct template in `/templates/` (include process memory, analysis type, or distillation).
-3. Place your entry in the correct folder.
-4. Automated tools generate/update the index and catalogue.
-5. If you have ideas for repository or process improvements, add them to `/backlog/` or `/ideas/`.
-
-## Templates & Standards
-
-- **Always use a submission template.**
-- **Tag and link entries for automated catalogue update.**
-- **Flag any sensitive materials; store them in `/sensitive/`.**
-
-## Available Templates
-
-- `templates/ATOMIC_ANALYSIS_TEMPLATE.md` - For quick, focused analyses
-- `templates/DISTILLATION_TEMPLATE.md` - For comprehensive investigations
-- `templates/PROCESS_MEMORY_TEMPLATE.md` - For strategic decision capture
-- `templates/IDEA_NOTE_TEMPLATE.md` - For ideas and questions
-- `templates/BACKLOG_ITEM_TEMPLATE.md` - For actionable improvements
-
-## Documentation Resources
-
-- **`AGENT_PANEL_WORKFLOW.md`** - Complete autonomous agent workflow
-- **`docs/ANALYSIS_MENU.md`** - Detailed analysis type descriptions
-- **`docs/MANIFEST_SCHEMA.md`** - Catalogue metadata schema
-- **`docs/AUTOMATION_GUIDE.md`** - Implementation patterns for agents
-- **`FOUNDATION.md`** - Core principles and system thinking
-- **`.github/PULL_REQUEST_TEMPLATE.md`** - PR submission format
+3.  **Training Data:**
+    * Use the files in `/examples/` as your one-shot learning prompts. They represent the "Ground Truth" of a correct output.
 
 ---
+**Imperative:** Holistic System Thinking. Do not just generate files; build the Knowledge Graph.
