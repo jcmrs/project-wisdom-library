@@ -45,6 +45,7 @@ def main():
 
     os.makedirs("catalogue", exist_ok=True)
     manifest_path = "catalogue/manifest.json"
+    # Always treat manifest as a list
     manifest = []
     if os.path.exists(manifest_path):
         with open(manifest_path) as f:
@@ -55,7 +56,7 @@ def main():
                 manifest = [manifest_loaded]
             else:
                 manifest = []
-    # Add new entries safely using append
+    # Add new entries -- use append, never extend!
     for af in artifacts:
         manifest.append({
             "issue": issue_number,
