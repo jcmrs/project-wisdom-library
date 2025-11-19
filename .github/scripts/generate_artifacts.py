@@ -54,7 +54,7 @@ def main():
                 manifest = manifest_loaded
             else:
                 manifest = [manifest_loaded]
-    # Add new entries -- FIXED TO USE .append() -- 
+    # Add new entries -- FIXED!
     for af in artifacts:
         manifest.append({
             "issue": issue_number,
