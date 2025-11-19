@@ -1,11 +1,18 @@
-/distillations/
-/atomic/
-/process_memory/
-/analyses/
-/backlog/
+# Previously these folders (artifact outputs) were ignored!
+# Remove below lines so agent/workflow outputs ARE committed
+
+# /distillations/
+# /atomic/
+# /process_memory/
+# /analyses/
+# /backlog/
+
+# Keep ignoring user/project-specific folders if you wish:
 /ideas/
 /sensitive/
 /tools/
+
+# Ignore unnecessary/binary files
 *.pyc
 *.tmp
 .DS_Store
