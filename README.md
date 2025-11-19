@@ -1,6 +1,6 @@
 # Project Wisdom Library
 
-Welcome to the **Project Wisdom Library**—a centralized, AI-driven archive for conceptual distillations, investigations, and epistemic history. This repository is designed for **Issue-Driven** autonomous agent operation, moving beyond simple data storage to capture the "Wisdom" and "Paradigm Shifts" of your projects.
+Welcome to the **Project Wisdom Library** The centralized, AI-driven archive for conceptual distillations, investigations, and epistemic history. This repository is designed for **Issue-Driven** autonomous agent operation, moving beyond simple data storage to capture the "Wisdom" and "Paradigm Shifts" of your projects.
 
 ## Core Principles
 - **Holistic System Thinking:** We analyze connections, not just components.
