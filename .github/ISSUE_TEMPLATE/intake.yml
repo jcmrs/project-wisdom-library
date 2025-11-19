@@ -8,15 +8,8 @@ body:
       value: |
         # Project Wisdom Intake
         *This form triggers an autonomous agent investigation.*
-
-  - type: textarea
-    id: system-prompt
-    attributes:
-      label: System Instructions (Auto-Generated)
-      description: "⚠️ DO NOT EDIT. This block contains the execution mandate for the System Owner Agent."
-      value: |
-        validations:
-      required: true
+        
+        **Action:** Fill this form and **Assign to Copilot** to start.
 
   - type: dropdown
     id: analysis-type
@@ -67,3 +60,25 @@ body:
       placeholder: "e.g. I noticed the auth module is weird."
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ```yaml
+        agent_prompt:
+          role: System Owner Agent
+          trigger: Assignment detected
+          action: Execute Wisdom Ladder Protocol
+          inputs:
+            target: ${{ target }}
+            depth: ${{ analysis-type }}
+            tools: ${{ menu-items }}
+            intent: ${{ intent }}
+            clues: ${{ special-requests }}
+          instructions:
+            1. Profile the [target].
+            2. If [intent] is empty, infer it from [tools] and [target].
+            3. Execute the selected [tools].
+            4. Generate 'process_memory' (JSON) and Analysis Artifacts.
+            5. Submit PR.
+        ```
