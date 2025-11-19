@@ -76,7 +76,7 @@ body:
           inputs:
             target: ${{ target }}
             depth: ${{ analysis-type }}
-            tools: ${{ menu-items }}
+            tools: ${{ menu-items | join(', ') }}
             intent: ${{ intent }}
             clues: ${{ special-requests }}
           instructions:
@@ -86,6 +86,5 @@ body:
             4. Generate 'process_memory' (JSON) and Analysis Artifacts.
             5. Submit PR (linking only this Issue).
         ```
-
         <!-- copilot-agent:diagnostics -->
         *If an error occurs parsing the payload or required fields are missing, Copilot will comment here describing the error and await correction before proceeding.*
