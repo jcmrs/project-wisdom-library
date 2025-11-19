@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add atomic/ distillations/ analyses/ process_memory/ backlog/ catalogue/
-          git commit -m "Add investigation artifacts via Copilot for issue #${{ github.event.issue.number }}"
-          git push
+          git add atomic/ distillations/ analyses/ process_memory/ backlog/ catalogue/ || true
+          git commit -m "Add investigation artifacts via Copilot for issue #${{ github.event.issue.number }}" || true
+          git push || true
