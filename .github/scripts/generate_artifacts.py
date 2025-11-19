@@ -49,13 +49,13 @@ def main():
     if os.path.exists(manifest_path):
         with open(manifest_path) as f:
             manifest_loaded = json.load(f)
-            # Always coerce to list
             if isinstance(manifest_loaded, list):
                 manifest = manifest_loaded
             elif isinstance(manifest_loaded, dict):
                 manifest = [manifest_loaded]
             else:
                 manifest = []
+    # Add new entries safely using append
     for af in artifacts:
         manifest.append({
             "issue": issue_number,
