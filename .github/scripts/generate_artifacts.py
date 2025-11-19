@@ -45,8 +45,8 @@ def main():
 
     os.makedirs("catalogue", exist_ok=True)
     manifest_path = "catalogue/manifest.json"
-    # Always treat manifest as a list
     manifest = []
+    # Defensive load: always load a list (if JSON is a dict: wrap as list)
     if os.path.exists(manifest_path):
         with open(manifest_path) as f:
             manifest_loaded = json.load(f)
@@ -56,7 +56,7 @@ def main():
                 manifest = [manifest_loaded]
             else:
                 manifest = []
-    # Add new entries -- use append, never extend!
+
     for af in artifacts:
         manifest.append({
             "issue": issue_number,
@@ -66,12 +66,20 @@ def main():
             "artifact": af,
             "created": today
         })
+
     with open(manifest_path, "w") as f:
         json.dump(manifest, f, indent=2)
+
+    # Write only valid manifest entries in the index
     with open("catalogue/index.md", "w") as f:
         f.write("# Wisdom Library Catalogue Index\n\n")
         for entry in manifest:
-            f.write(f"- [{entry['artifact']}]({entry['artifact']}) — Issue #{entry['issue']}, Target: {entry['target']}, Intent: {entry['intent']}, Date: {entry['created']}\n")
+            # Only include entries with all needed keys
+            if all(k in entry for k in ("artifact", "issue", "target", "intent", "created")):
+                f.write(f"- [{entry['artifact']}]({entry['artifact']}) — Issue #{entry['issue']}, Target: {entry['target']}, Intent: {entry['intent']}, Date: {entry['created']}\n")
+            else:
+                # Write a warning if an invalid entry present
+                f.write(f"- [INVALID MANIFEST ENTRY: {entry}]\n")
 
 if __name__ == "__main__":
     main()
