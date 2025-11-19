@@ -20,38 +20,7 @@ jobs:
         id: parse-issue
         run: |
           echo "${{ github.event.issue.body }}" > issue_body.txt
-          python3 <<EOF > issue_vars.sh
-import re
-issue_body = open("issue_body.txt").read()
-
-def find_section(title):
-    m = re.search(rf"{title}\\n\\n([\\s\\S]*?)(\\n(?=###)|$)", issue_body)
-    return m.group(1).strip() if m else ""
-
-depth = find_section("### Investigation Depth")
-target = find_section("### Target Repository URL")
-
-# Methodologies parsing (matches checked lines: lines starting with "- [x]")
-methodologies_raw = find_section("### Methodology (The Wisdom Ladder)")
-tools = []
-for line in methodologies_raw.splitlines():
-    m = re.match(r"- \\[x\\] (.+)", line.strip())
-    if m:
-        tools.append(m.group(1).strip())
-tools_str = ", ".join(tools)
-
-intent = find_section("### Intent / Strategic Context (Optional)")
-intent = (intent if intent and intent.lower() != "_no response_" else "")
-
-clues = find_section("### Special Observations (Optional)")
-clues = (clues if clues and clues.lower() != "_no response_" else "")
-
-print(f'export AGENT_TARGET="{target}"')
-print(f'export AGENT_DEPTH="{depth}"')
-print(f'export AGENT_TOOLS="{tools_str}"')
-print(f'export AGENT_INTENT="{intent}"')
-print(f'export AGENT_CLUES="{clues}"')
-EOF
+          python3 .github/scripts/extract_issue_vars.py
           cat issue_vars.sh >> $GITHUB_ENV
 
       - name: Setup Python
