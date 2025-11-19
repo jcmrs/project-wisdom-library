@@ -9,20 +9,18 @@ Welcome to the **Project Wisdom Library**—a centralized, AI-driven archive for
 
 ## How to Use This Library
 
-### 1. Vision Owner (Human): Create the Mandate
-**Do not browse folders manually.** Use the automated Intake Process.
-1.  **Start:** Go to **Issues** $\to$ **New Issue**.
-2.  **Select:** `[Intake]: Conceptual Investigation` or `[Task]: Backlog Task`.
-3.  **Submit:** Fill out the form. This creates the "Trigger."
+### 1. Vision Owner (Human): Trigger the System
+1.  **File an Issue:** Use `[Intake]` for investigations or `[Task]` for backlog items.
+2.  **Assign:** **Assign the Issue to Copilot** (or your connected AI Agent).
+    * *The Assignment is the Trigger.*
 
-### 2. System Owner (Human + Agent): Execute the Mandate
-*The system does not run automatically. You must invoke the Agent.*
+### 2. System Owner (Agent): Execute the Mandate
+*The Agent automatically picks up the assigned Issue.*
 
-1.  **Open your Agent Panel** (e.g., GitHub Copilot, Cursor, etc.).
-2.  **Load Context:** Ensure the agent can read `docs/` and `prompts/`.
-3.  **Paste the Driver:** Input the content of `prompts/AGENT_PANEL_PROMPT.md`.
-4.  **Fire:** Give the command:
-    > "Execute Phase 1 for Issue #[Number]"
+1.  **Read:** The Agent reads the "System Owner Instructions" embedded in the Issue.
+2.  **Profile:** The Agent scans the Target Repository provided in the form.
+3.  **Execute:** The Agent climbs the **Wisdom Ladder** (Architecture $\to$ Forensics $\to$ Wisdom).
+4.  **Deliver:** The Agent submits a Pull Request with the results.
 
 ### 2. For AI Agents (System Owners)
 **Do not chat.** Execute the mandate.
