@@ -3,6 +3,12 @@ description: "Initiate an autonomous AI investigation. Point and Shoot."
 title: "[Intake]: "
 labels: ["investigation", "autonomous-agent"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Project Wisdom Intake
+        *This form triggers an autonomous agent investigation.*
+
   - type: textarea
     id: system-prompt
     attributes:
