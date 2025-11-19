@@ -13,26 +13,29 @@ body:
         1. Fill in all fields.
         2. Assign to Copilot.
         3. Each investigation is a **standalone workflow**. The findings will be linked only to this Issue—not to external issues or other repositories.
+
   - type: dropdown
     id: analysis-type
     attributes:
-      label: Investigation Depth
+      label: **Investigation Depth**
       options:
         - "Atomic (Quick check)"
         - "Long-Form (Deep distillation)"
     validations:
       required: true
+
   - type: input
     id: target
     attributes:
-      label: Target Repository URL
+      label: **Target Repository URL**
       placeholder: "https://github.com/my-org/my-repo"
     validations:
       required: true
+
   - type: checkboxes
     id: menu-items
     attributes:
-      label: Methodology (The Wisdom Ladder)
+      label: **Methodology (The Wisdom Ladder)**
       options:
         - label: "Level 1: Hard Architecture Mapping"
         - label: "Level 2: Decision Forensics"
@@ -43,25 +46,37 @@ body:
         - label: "Level 4: Paradigm Extraction"
     validations:
       required: true
+
   - type: textarea
     id: intent
     attributes:
-      label: Intent / Strategic Context (Optional)
+      label: **Intent / Strategic Context (Optional)**
       description: Leave blank to let the Agent infer intent from the Target.
       placeholder: "e.g. Audit for security risks"
     validations:
       required: false
+
   - type: textarea
     id: special-requests
     attributes:
-      label: Special Observations (Optional)
+      label: **Special Observations (Optional)**
       placeholder: "e.g. I noticed the auth module is weird."
     validations:
       required: false
 
-output:
-  agent_target: ${{ target }}
-  agent_depth: ${{ analysis-type }}
-  agent_tools: ${{ menu-items | join(', ') }}
-  agent_intent: ${{ intent }}
-  agent_clues: ${{ special-requests }}
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧠 Agent Investigation Payload
+
+        ```yaml
+        agent_prompt:
+          target: ${{ target }}
+          depth: ${{ analysis-type }}
+          tools: ${{ menu-items | join(', ') }}
+          intent: ${{ intent }}
+          clues: ${{ special-requests }}
+        ```
+        <!-- copilot-agent:payload -->
+
+        *If an error occurs parsing the payload or required fields are missing, Copilot will comment here describing the error and await correction before proceeding.*
