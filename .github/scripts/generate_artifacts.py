@@ -45,16 +45,17 @@ def main():
 
     os.makedirs("catalogue", exist_ok=True)
     manifest_path = "catalogue/manifest.json"
-    # Load manifest, ensure it's a list
     manifest = []
     if os.path.exists(manifest_path):
         with open(manifest_path) as f:
             manifest_loaded = json.load(f)
+            # Always coerce to list
             if isinstance(manifest_loaded, list):
                 manifest = manifest_loaded
-            else:
+            elif isinstance(manifest_loaded, dict):
                 manifest = [manifest_loaded]
-    # Add new entries -- FIXED!
+            else:
+                manifest = []
     for af in artifacts:
         manifest.append({
             "issue": issue_number,
@@ -66,7 +67,6 @@ def main():
         })
     with open(manifest_path, "w") as f:
         json.dump(manifest, f, indent=2)
-    # Update catalogue/index.md
     with open("catalogue/index.md", "w") as f:
         f.write("# Wisdom Library Catalogue Index\n\n")
         for entry in manifest:
