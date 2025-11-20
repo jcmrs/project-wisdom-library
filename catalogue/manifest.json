@@ -2,198 +2,1212 @@
   {
     "analyses": [
       {
-        "id": "basic-memory-architecture-2025-11-20",
-        "title": "Hard Architecture Mapping: Basic Memory",
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Agent Control Plane (ACP)",
         "date": "2025-11-20",
         "type": "analysis",
-        "path": "/analyses/basic-memory/2025-11-20-hard-architecture-mapping.md",
-        "description": "Comprehensive Level 1 analysis: Files-as-Database architecture, 5-layer clean architecture, 17 MCP tools, bidirectional sync. ~25k LOC, 957 commits.",
+        "path": "/analyses/agentcontrolplane/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for agentcontrolplane",
         "tags": [
-          "hard-architecture",
-          "files-as-database",
-          "mcp-protocol",
-          "knowledge-management",
-          "local-first",
-          "level-1",
-          "wisdom-ladder"
+          "wisdom-ladder",
+          "level-1"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
-        "related": [
-          "basic-memory-decision-forensics-2025-11-20",
-          "basic-memory-meta-patterns-2025-11-20"
-        ],
-        "strategic_context": "Establish technical ground truth for Files-as-Database pattern and MCP integration architecture"
-      }
-    ],
-    "atomic": [
-      {
-        "id": "basic-memory-decision-forensics-2025-11-20",
-        "title": "Decision Forensics: Basic Memory",
-        "date": "2025-11-20",
-        "type": "atomic",
-        "path": "/atomic/basic-memory/2025-11-20-decision-forensics.md",
-        "description": "Git history analysis of 957 commits revealing 7 strategic pivots: Cloud integration, DBOS removal, project-scoped sync, async I/O, Windows support. Specification-driven development culture.",
-        "tags": [
-          "decision-forensics",
-          "git-history",
-          "strategic-pivots",
-          "specification-driven",
-          "evidence-first",
-          "level-2",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "basic-memory-architecture-2025-11-20",
-          "basic-memory-anti-library-2025-11-20"
-        ],
-        "strategic_context": "Document decision patterns revealing field-driven architecture and simplification philosophy"
-      },
-      {
-        "id": "basic-memory-anti-library-2025-11-20",
-        "title": "Anti-Library Extraction: Basic Memory",
-        "date": "2025-11-20",
-        "type": "atomic",
-        "path": "/atomic/basic-memory/2025-11-20-anti-library.md",
-        "description": "Documentation of 20+ rejected approaches (custom APIs, proprietary formats) and 8 constraints-as-specifications where limitations became competitive advantages.",
-        "tags": [
-          "anti-library",
-          "negative-knowledge",
-          "constraints-as-specifications",
-          "constraint-exploitation",
-          "level-2",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "basic-memory-decision-forensics-2025-11-20",
-          "basic-memory-paradigm-extraction-2025-11-20"
-        ],
-        "strategic_context": "Preserve negative knowledge: what NOT to build and why"
-      },
-      {
-        "id": "basic-memory-vision-alignment-2025-11-20",
-        "title": "Vision Alignment: Basic Memory",
-        "date": "2025-11-20",
-        "type": "atomic",
-        "path": "/atomic/basic-memory/2025-11-20-vision-alignment.md",
-        "description": "95.9% vision-reality alignment (47/49 claims validated). Exceptional integrity where README promises match implementation.",
-        "tags": [
-          "vision-alignment",
-          "integrity-assessment",
-          "documentation-accuracy",
-          "level-3",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "basic-memory-architecture-2025-11-20",
-          "basic-memory-process-memory-2025-11-20"
-        ],
-        "strategic_context": "Demonstrate exceptional software design integrity"
+        "related": [],
+        "strategic_context": "Analysis for agentcontrolplane"
       }
     ],
     "process_memory": [
       {
-        "id": "basic-memory-process-memory-2025-11-20",
-        "title": "Process Memory: Basic Memory Investigation",
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory & Epistemic History",
         "date": "2025-11-20",
         "type": "process_memory",
-        "path": "/process_memory/basic-memory/2025-11-20-investigation.md",
-        "description": "Epistemic history documenting 6 pivotal realizations from 'just another tool' to 'paradigm shift in AI-native knowledge work'.",
+        "path": "/process_memory/agentcontrolplane/2025-11-20-investigation.md",
+        "description": "Investigation artifact for agentcontrolplane",
         "tags": [
-          "process-memory",
-          "epistemic-history",
-          "investigation-journey",
-          "paradigm-recognition",
-          "level-3",
-          "wisdom-ladder"
+          "wisdom-ladder",
+          "level-4"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
-        "related": [
-          "basic-memory-meta-patterns-2025-11-20",
-          "basic-memory-paradigm-extraction-2025-11-20"
-        ],
-        "strategic_context": "Capture understanding evolution for future investigations"
-      }
-    ],
-    "distillations": [
-      {
-        "id": "basic-memory-meta-patterns-2025-11-20",
-        "title": "Meta-Pattern Synthesis: Basic Memory",
-        "date": "2025-11-20",
-        "type": "distillation",
-        "path": "/distillations/basic-memory/2025-11-20-meta-patterns.md",
-        "description": "Ten universal patterns: Files-as-Database, MCP-as-Universal-Interface, Bidirectional-Collaboration, Specification-Driven-Velocity, Constraint-Exploitation, Evidence-First-Scaling, Standards-First, Framework-Skepticism, Dual-Mode, Negative-Knowledge-Documentation.",
-        "tags": [
-          "meta-patterns",
-          "universal-principles",
-          "design-wisdom",
-          "cross-domain",
-          "portable-knowledge",
-          "level-4",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "basic-memory-paradigm-extraction-2025-11-20",
-          "basic-memory-process-memory-2025-11-20"
-        ],
-        "strategic_context": "Extract portable wisdom applicable to any AI-native system"
-      },
-      {
-        "id": "basic-memory-paradigm-extraction-2025-11-20",
-        "title": "Paradigm Extraction: Basic Memory",
-        "date": "2025-11-20",
-        "type": "distillation",
-        "path": "/distillations/basic-memory/2025-11-20-paradigm-extraction.md",
-        "description": "Seven fundamental paradigm shifts: Files→Database Inversion, Queries→Collaboration, Proprietary→Standards, Prediction→Evidence, All-or-Nothing→Dual-Mode, Code-First→Specification-First, Constraints→Opportunities.",
-        "tags": [
-          "paradigm-shift",
-          "worldview-transformation",
-          "cultural-change",
-          "ai-native-development",
-          "human-ai-collaboration",
-          "level-4",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "basic-memory-meta-patterns-2025-11-20",
-          "basic-memory-paradigm-adoption-roadmap-2025-11-20"
-        ],
-        "strategic_context": "Identify worldview shifts defining AI-native knowledge work"
+        "related": [],
+        "strategic_context": "Analysis for agentcontrolplane"
       }
     ],
     "backlog": [
       {
-        "id": "basic-memory-paradigm-adoption-roadmap-2025-11-20",
+        "id": "2025-11-20-paradigm-shift-unknown",
+        "title": "Strategic Backlog",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/agentcontrolplane/2025-11-20-paradigm-shift-unknown.md",
+        "description": "Investigation artifact for agentcontrolplane",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for agentcontrolplane"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Basic Memory",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/basic-memory/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-20-anti-library",
+        "title": "Anti-Library Extraction: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-anti-library.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      },
+      {
+        "id": "2025-11-20-decision-forensics",
+        "title": "Decision Forensics: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-decision-forensics.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      },
+      {
+        "id": "2025-11-20-vision-alignment",
+        "title": "Vision Alignment Analysis: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-vision-alignment.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: Basic Memory Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/basic-memory/2025-11-20-investigation.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Basic Memory",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/basic-memory/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: Basic Memory",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/basic-memory/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for basic-memory",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-20-paradigm-adoption-roadmap",
         "title": "Strategic Backlog: Paradigm Adoption - Basic Memory Patterns",
         "date": "2025-11-20",
         "type": "backlog",
         "path": "/backlog/basic-memory/2025-11-20-paradigm-adoption-roadmap.md",
-        "description": "24-36 month adoption roadmap. $200-375k investment for 5-10× improvement in productivity, trust, market reach.",
+        "description": "Investigation artifact for basic-memory",
         "tags": [
-          "strategic-backlog",
-          "paradigm-adoption",
-          "roadmap",
-          "cultural-transformation",
-          "investment-plan"
+          "wisdom-ladder",
+          "level-4"
         ],
         "author": "GitHub Copilot",
         "status": "proposed",
-        "related": [
-          "basic-memory-paradigm-extraction-2025-11-20",
-          "basic-memory-meta-patterns-2025-11-20"
+        "related": [],
+        "strategic_context": "Analysis for basic-memory"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/claude-code-plugins-plus/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
         ],
-        "strategic_context": "Provide actionable roadmap for AI-native collaboration adoption"
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-20-anti-library",
+        "title": "Anti-Library Extraction: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claude-code-plugins-plus/2025-11-20-anti-library.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      },
+      {
+        "id": "2025-11-20-decision-forensics",
+        "title": "Decision Forensics: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claude-code-plugins-plus/2025-11-20-decision-forensics.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      },
+      {
+        "id": "2025-11-20-vision-alignment",
+        "title": "Vision Alignment Analysis: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claude-code-plugins-plus/2025-11-20-vision-alignment.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: Claude Code Plugins Plus Investigation",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/claude-code-plugins-plus/2025-11-20-investigation.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-code-plugins-plus/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-code-plugins-plus/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for claude-code-plugins-plus",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-code-plugins-plus"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/claude-skills-mcp/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for claude-skills-mcp",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-skills-mcp"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory & Epistemic History: Claude Skills MCP Investigation",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/claude-skills-mcp/2025-11-20-investigation.md",
+        "description": "Investigation artifact for claude-skills-mcp",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-skills-mcp"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-skills-mcp/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for claude-skills-mcp",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-skills-mcp"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: Claude Skills MCP Server",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-skills-mcp/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for claude-skills-mcp",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claude-skills-mcp"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-20-paradigm-shift-unknown",
+        "title": "Strategic Backlog",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/claude-skills-mcp/2025-11-20-paradigm-shift-unknown.md",
+        "description": "Investigation artifact for claude-skills-mcp",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for claude-skills-mcp"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/claudekit-skills/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-20-anti-library",
+        "title": "Anti-Library Extraction: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-anti-library.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      },
+      {
+        "id": "2025-11-20-decision-forensics",
+        "title": "Decision Forensics: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-decision-forensics.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      },
+      {
+        "id": "2025-11-20-vision-alignment",
+        "title": "Vision Alignment Analysis: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/claudekit-skills/2025-11-20-vision-alignment.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: ClaudeKit Skills Investigation (Complete)",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/claudekit-skills/2025-11-20-investigation.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claudekit-skills/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: ClaudeKit Skills",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claudekit-skills/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-20-paradigm-shift-knowledge-as-code",
+        "title": "Strategic Shift: From Documentation-Supported Development \u2192 Knowledge-as-Code",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/claudekit-skills/2025-11-20-paradigm-shift-knowledge-as-code.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      },
+      {
+        "id": "2025-11-20-paradigm-shift-unknown",
+        "title": "Strategic Backlog",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/claudekit-skills/2025-11-20-paradigm-shift-unknown.md",
+        "description": "Investigation artifact for claudekit-skills",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for claudekit-skills"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-19-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "analysis",
+        "path": "/analyses/kindroid-chip-plugin/2025-11-19-hard-architecture-mapping.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-19-anti-library",
+        "title": "Anti-Library Extraction: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/kindroid-chip-plugin/2025-11-19-anti-library.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      },
+      {
+        "id": "2025-11-19-decision-forensics",
+        "title": "Decision Forensics: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/kindroid-chip-plugin/2025-11-19-decision-forensics.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      },
+      {
+        "id": "2025-11-19-vision-alignment",
+        "title": "Vision Alignment Analysis: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/kindroid-chip-plugin/2025-11-19-vision-alignment.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-19-investigation",
+        "title": "Process Memory & Epistemic History",
+        "date": "2025-11-19",
+        "type": "process_memory",
+        "path": "/process_memory/kindroid-chip-plugin/2025-11-19-investigation.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-19-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "distillation",
+        "path": "/distillations/kindroid-chip-plugin/2025-11-19-meta-patterns.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      },
+      {
+        "id": "2025-11-19-paradigm-extraction",
+        "title": "Paradigm Extraction: Kindroid AI-Chip Plugin",
+        "date": "2025-11-19",
+        "type": "distillation",
+        "path": "/distillations/kindroid-chip-plugin/2025-11-19-paradigm-extraction.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-19-paradigm-shift-linguistic-software",
+        "title": "Strategic Backlog: Paradigm Shift & Realignment",
+        "date": "2025-11-19",
+        "type": "backlog",
+        "path": "/backlog/kindroid-chip-plugin/2025-11-19-paradigm-shift-linguistic-software.md",
+        "description": "Investigation artifact for kindroid-chip-plugin",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for kindroid-chip-plugin"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/mcp-agent-mail/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-20-anti-library",
+        "title": "Anti-Library Extraction: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-anti-library.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      },
+      {
+        "id": "2025-11-20-decision-forensics",
+        "title": "Decision Forensics: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-decision-forensics.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      },
+      {
+        "id": "2025-11-20-vision-alignment",
+        "title": "Vision Alignment Analysis: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/mcp-agent-mail/2025-11-20-vision-alignment.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: MCP Agent Mail Investigation",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/mcp-agent-mail/2025-11-20-investigation.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/mcp-agent-mail/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: MCP Agent Mail",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/mcp-agent-mail/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-20-paradigm-shift-agent-first-development",
+        "title": "Strategic Shift: From Code-First to Agent-First Development",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/mcp-agent-mail/2025-11-20-paradigm-shift-agent-first-development.md",
+        "description": "Investigation artifact for mcp-agent-mail",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for mcp-agent-mail"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Skill Seekers",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/skill-seekers/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for skill-seekers",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for skill-seekers"
+      },
+      {
+        "id": "README",
+        "title": "Skill Seekers Investigation",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/skill-seekers/README.md",
+        "description": "Investigation artifact for skill-seekers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for skill-seekers"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: Skill Seekers Investigation",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/skill-seekers/2025-11-20-investigation.md",
+        "description": "Investigation artifact for skill-seekers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for skill-seekers"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: Skill Seekers",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/skill-seekers/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for skill-seekers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for skill-seekers"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-20-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/superpowers/2025-11-20-hard-architecture-mapping.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-20-anti-library",
+        "title": "Anti-Library Extraction: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-anti-library.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      },
+      {
+        "id": "2025-11-20-decision-forensics",
+        "title": "Decision Forensics: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-decision-forensics.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      },
+      {
+        "id": "2025-11-20-vision-alignment",
+        "title": "Vision Alignment Analysis: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/superpowers/2025-11-20-vision-alignment.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-20-investigation",
+        "title": "Process Memory: Superpowers Skills Library Investigation",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/superpowers/2025-11-20-investigation.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-20-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/superpowers/2025-11-20-meta-patterns.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      },
+      {
+        "id": "2025-11-20-paradigm-extraction",
+        "title": "Paradigm Extraction: Superpowers Skills Library",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/superpowers/2025-11-20-paradigm-extraction.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-20-paradigm-shift-documentation-as-behavior",
+        "title": "Strategic Backlog: Paradigm Shift & Realignment",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/superpowers/2025-11-20-paradigm-shift-documentation-as-behavior.md",
+        "description": "Investigation artifact for superpowers",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for superpowers"
+      }
+    ]
+  },
+  {
+    "analyses": [
+      {
+        "id": "2025-11-19-hard-architecture-mapping",
+        "title": "Hard Architecture Mapping: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "analysis",
+        "path": "/analyses/thinking-tools-framework/2025-11-19-hard-architecture-mapping.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "2025-11-19-anti-library",
+        "title": "Anti-Library Extraction: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/thinking-tools-framework/2025-11-19-anti-library.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      },
+      {
+        "id": "2025-11-19-decision-forensics",
+        "title": "Decision Forensics: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/thinking-tools-framework/2025-11-19-decision-forensics.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      },
+      {
+        "id": "2025-11-19-vision-alignment",
+        "title": "Vision Alignment Analysis: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "atomic",
+        "path": "/atomic/thinking-tools-framework/2025-11-19-vision-alignment.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "2025-11-19-investigation",
+        "title": "Process Memory: Thinking Tools Framework Investigation",
+        "date": "2025-11-19",
+        "type": "process_memory",
+        "path": "/process_memory/thinking-tools-framework/2025-11-19-investigation.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "2025-11-19-meta-patterns",
+        "title": "Meta-Pattern Synthesis: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "distillation",
+        "path": "/distillations/thinking-tools-framework/2025-11-19-meta-patterns.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      },
+      {
+        "id": "2025-11-19-paradigm-extraction",
+        "title": "Paradigm Extraction: Thinking Tools Framework",
+        "date": "2025-11-19",
+        "type": "distillation",
+        "path": "/distillations/thinking-tools-framework/2025-11-19-paradigm-extraction.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "2025-11-19-paradigm-shift-ai-first-development",
+        "title": "Strategic Backlog: AI-First Development Paradigm Shift",
+        "date": "2025-11-19",
+        "type": "backlog",
+        "path": "/backlog/thinking-tools-framework/2025-11-19-paradigm-shift-ai-first-development.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
+      },
+      {
+        "id": "2025-11-19-paradigm-shift-unknown",
+        "title": "Strategic Backlog",
+        "date": "2025-11-19",
+        "type": "backlog",
+        "path": "/backlog/thinking-tools-framework/2025-11-19-paradigm-shift-unknown.md",
+        "description": "Investigation artifact for thinking-tools-framework",
+        "tags": [
+          "wisdom-ladder",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [],
+        "strategic_context": "Analysis for thinking-tools-framework"
       }
     ]
   }
