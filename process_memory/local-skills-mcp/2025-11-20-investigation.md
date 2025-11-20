@@ -749,7 +749,7 @@ With precedence: Same name, context-appropriate version
     "artifacts_generated": 2,
     "wisdom_levels_completed": [1, 3],
     "wisdom_levels_pending": [2, 4],
-    "key_insight": "Skills are portable capability units (like npm packages for AI) with semantic contracts (YAML+Markdown), distributed via filesystem infrastructure (multi-source with precedence), routed via LLM language understanding (descriptions as contracts), and validated through self-hosting (built-in skills prove the pattern)"
+    "key_insight": "Skills are portable capability units (like npm packages for AI) with semantic contracts (YAML+Markdown), distributed via filesystem infrastructure (multi-source with precedence), routed via LLM language understanding (descriptions as contracts), and validated through self-hosting (built-in skills prove the pattern) that might be overlooked when inspecting only a limited code sample in the future"
   }
 }
 ```
