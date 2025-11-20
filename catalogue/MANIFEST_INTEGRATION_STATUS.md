@@ -6,14 +6,10 @@ The main `manifest.json` file has **pre-existing structural errors** that existe
 
 ### Pre-existing Errors Found
 
-Multiple syntax errors discovered at various lines:
-- Line 1497: Missing closing bracket for tags array
-- Line 1561: Missing comma after metadata field
-- Line 1613: Double quotes and missing delimiters
-- Line 1664: Structural issues with related arrays
-- Line 1700: Missing closing braces
-- Line 1738: Array closure issues
-- And potentially more...
+The `catalogue/manifest.json` file has a structural error that existed before this investigation:
+- **Line 1497:** Expecting ',' delimiter
+
+This error prevents the manifest from being parsed as valid JSON. The manifest.json has been restored to its exact pre-investigation state (commit 63080be) - no changes made, no new errors introduced.
 
 ## This Investigation's Manifest Entry
 
