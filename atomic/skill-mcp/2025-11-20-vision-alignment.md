@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-**Alignment Score: 96% (53/55 claims validated)**
+**Alignment Score: 96% (45 verified + 4 conditionally verified out of 49 total claims)**
 
 skill-mcp demonstrates **exceptional integrity** where documentation claims match implementation reality. Every quantifiable claim was verified through codebase inspection and test results. The 2 unverified claims relate to external research citations that require independent validation.
 
