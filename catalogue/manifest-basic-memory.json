@@ -1,0 +1,159 @@
+[
+  {
+    "analyses": [
+      {
+        "id": "basic-memory-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Basic Memory",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/basic-memory/2025-11-20-hard-architecture-mapping.md",
+        "description": "Files-as-Database architecture, 5-layer clean architecture, 17 MCP tools, 957 commits",
+        "tags": [
+          "hard-architecture",
+          "files-as-database",
+          "mcp-protocol",
+          "level-1"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-decision-forensics-2025-11-20"
+        ],
+        "strategic_context": "Establish Files-as-Database pattern"
+      }
+    ],
+    "atomic": [
+      {
+        "id": "basic-memory-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-decision-forensics.md",
+        "description": "7 strategic pivots across 957 commits",
+        "tags": [
+          "decision-forensics",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-anti-library-2025-11-20"
+        ],
+        "strategic_context": "Field-driven architecture"
+      },
+      {
+        "id": "basic-memory-anti-library-2025-11-20",
+        "title": "Anti-Library: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-anti-library.md",
+        "description": "20+ rejected approaches, 8 constraints-as-specifications",
+        "tags": [
+          "anti-library",
+          "level-2"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-vision-alignment-2025-11-20"
+        ],
+        "strategic_context": "Negative knowledge"
+      },
+      {
+        "id": "basic-memory-vision-alignment-2025-11-20",
+        "title": "Vision Alignment: Basic Memory",
+        "date": "2025-11-20",
+        "type": "atomic",
+        "path": "/atomic/basic-memory/2025-11-20-vision-alignment.md",
+        "description": "95.9% alignment (47/49 claims)",
+        "tags": [
+          "vision-alignment",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Exceptional integrity"
+      }
+    ],
+    "process_memory": [
+      {
+        "id": "basic-memory-process-memory-2025-11-20",
+        "title": "Process Memory: Basic Memory",
+        "date": "2025-11-20",
+        "type": "process_memory",
+        "path": "/process_memory/basic-memory/2025-11-20-investigation.md",
+        "description": "Investigation journey, 6 pivotal realizations",
+        "tags": [
+          "process-memory",
+          "level-3"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-meta-patterns-2025-11-20"
+        ],
+        "strategic_context": "Epistemic history"
+      }
+    ],
+    "distillations": [
+      {
+        "id": "basic-memory-meta-patterns-2025-11-20",
+        "title": "Meta-Patterns: Basic Memory",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/basic-memory/2025-11-20-meta-patterns.md",
+        "description": "10 universal patterns",
+        "tags": [
+          "meta-patterns",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Portable wisdom"
+      },
+      {
+        "id": "basic-memory-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Basic Memory",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/basic-memory/2025-11-20-paradigm-extraction.md",
+        "description": "7 worldview shifts",
+        "tags": [
+          "paradigm-shift",
+          "level-4"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "basic-memory-paradigm-adoption-roadmap-2025-11-20"
+        ],
+        "strategic_context": "Cultural transformation"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "basic-memory-paradigm-adoption-roadmap-2025-11-20",
+        "title": "Strategic Backlog: Paradigm Adoption",
+        "date": "2025-11-20",
+        "type": "backlog",
+        "path": "/backlog/basic-memory/2025-11-20-paradigm-adoption-roadmap.md",
+        "description": "24-36 month adoption roadmap",
+        "tags": [
+          "strategic-backlog"
+        ],
+        "author": "GitHub Copilot",
+        "status": "proposed",
+        "related": [
+          "basic-memory-paradigm-extraction-2025-11-20"
+        ],
+        "strategic_context": "Action plan"
+      }
+    ]
+  }
+]
