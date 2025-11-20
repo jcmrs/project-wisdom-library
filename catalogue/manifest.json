@@ -1829,7 +1829,6 @@
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
           "phase": "Analysis Complete",
-          "investigation_depth": "long-form",
           "investigation_depth": "long-form"
         }
       },
