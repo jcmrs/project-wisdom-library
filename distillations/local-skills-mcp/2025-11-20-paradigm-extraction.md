@@ -898,7 +898,7 @@ Disclosure (3)      (4)          (5)
 
 **Success Metrics:**
 - 100+ skills in library
-- 50× reduction in prompt duplicatio
+- 50× reduction in prompt duplication
 - 95% of AI workflows use skills
 - Positive ROI (cost savings > investment)
 
