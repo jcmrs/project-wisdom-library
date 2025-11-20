@@ -1494,12 +1494,6 @@
           "local-first",
           "level-1",
           "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": []
-      }
-    ],
     "atomic": [
       {
         "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
@@ -1557,8 +1551,6 @@
             "Uvicorn"
           ],
           "special_focus": "Skills Patterns Extraction"
-        },
-        "related": [
           "claude-code-plugins-plus-decision-forensics-2025-11-20"
         ],
         "strategic_context": "Reveal how platform constraints became architectural specifications"
@@ -1609,9 +1601,6 @@
           "mental-models",
           "level-4",
           "wisdom-ladder"
-        ]
-      },
-      {
         "id": "claude-code-plugins-plus-meta-patterns-2025-11-20",
         "title": "Meta-Pattern Synthesis: Claude Code Plugins Plus",
         "date": "2025-11-20",
@@ -1660,8 +1649,6 @@
           "cross-domain",
           "level-4",
           "wisdom-ladder"
-        ],
-        "related": [
           "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
         ],
         "strategic_context": "Extract portable wisdom for AI-native development and platform ecosystems",
@@ -1696,8 +1683,6 @@
           "patterns_identified": 10,
           "abstraction_type": "cross-domain",
           "applicability": "AI systems, web apps, APIs, distributed systems"
-        },
-        "related": [
           "claude-code-plugins-plus-meta-patterns-2025-11-20"
         ],
         "strategic_context": "Identify worldview shifts required for AI-native development",
