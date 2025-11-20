@@ -1494,6 +1494,12 @@
           "local-first",
           "level-1",
           "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": []
+      }
+    ],
     "atomic": [
       {
         "id": "claude-code-plugins-plus-decision-forensics-2025-11-20",
@@ -1551,6 +1557,8 @@
             "Uvicorn"
           ],
           "special_focus": "Skills Patterns Extraction"
+        },
+        "related": [
           "claude-code-plugins-plus-decision-forensics-2025-11-20"
         ],
         "strategic_context": "Reveal how platform constraints became architectural specifications"
@@ -1601,6 +1609,9 @@
           "mental-models",
           "level-4",
           "wisdom-ladder"
+        ]
+      },
+      {
         "id": "claude-code-plugins-plus-meta-patterns-2025-11-20",
         "title": "Meta-Pattern Synthesis: Claude Code Plugins Plus",
         "date": "2025-11-20",
@@ -1649,6 +1660,8 @@
           "cross-domain",
           "level-4",
           "wisdom-ladder"
+        ],
+        "related": [
           "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
         ],
         "strategic_context": "Extract portable wisdom for AI-native development and platform ecosystems",
@@ -1683,6 +1696,8 @@
           "patterns_identified": 10,
           "abstraction_type": "cross-domain",
           "applicability": "AI systems, web apps, APIs, distributed systems"
+        },
+        "related": [
           "claude-code-plugins-plus-meta-patterns-2025-11-20"
         ],
         "strategic_context": "Identify worldview shifts required for AI-native development",
@@ -1933,82 +1948,5 @@
     "intent": "\"\"",
     "artifact": "backlog/skill_seekers/2025-11-20-paradigm-shift-unknown.md",
     "created": "2025-11-20"
-  }
-,
-  {
-    "analyses": [{
-      "id": "mcp-structured-thinking-architecture-2025-11-20",
-      "title": "Hard Architecture Mapping: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "analysis",
-      "path": "/analyses/mcp-structured-thinking/2025-11-20-hard-architecture-mapping.md",
-      "description": "Comprehensive Level 1 analysis: five-layer architecture, 5 MCP tools, 10 thinking stages, dual-memory, cognitive subsystems",
-      "tags": ["hard-architecture", "mcp-protocol", "cognitive-architecture", "level-1", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    }],
-    "atomic": [{
-      "id": "mcp-structured-thinking-decision-forensics-2025-11-20",
-      "title": "Decision Forensics: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "atomic",
-      "path": "/atomic/mcp-structured-thinking/2025-11-20-decision-forensics.md",
-      "description": "Git analysis: 22 commits, 73 days, Python→TypeScript, 6 decision patterns",
-      "tags": ["decision-forensics", "level-2", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    },{
-      "id": "mcp-structured-thinking-anti-library-2025-11-20",
-      "title": "Anti-Library Extraction: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "atomic",
-      "path": "/atomic/mcp-structured-thinking/2025-11-20-anti-library.md",
-      "description": "12+ rejections, constraints-as-advantages pattern",
-      "tags": ["anti-library", "level-2", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    },{
-      "id": "mcp-structured-thinking-vision-alignment-2025-11-20",
-      "title": "Vision Alignment: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "atomic",
-      "path": "/atomic/mcp-structured-thinking/2025-11-20-vision-alignment.md",
-      "description": "96.4% alignment, zero false claims",
-      "tags": ["vision-alignment", "level-3", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    }],
-    "distillations": [{
-      "id": "mcp-structured-thinking-meta-patterns-2025-11-20",
-      "title": "Meta-Pattern Synthesis: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "distillation",
-      "path": "/distillations/mcp-structured-thinking/2025-11-20-meta-patterns.md",
-      "description": "Ten universal patterns, Infrastructure-as-Cognition",
-      "tags": ["meta-patterns", "level-4", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    },{
-      "id": "mcp-structured-thinking-paradigm-extraction-2025-11-20",
-      "title": "Paradigm Extraction: MCP Structured Thinking",
-      "date": "2025-11-20",
-      "type": "distillation",
-      "path": "/distillations/mcp-structured-thinking/2025-11-20-paradigm-extraction.md",
-      "description": "Seven paradigm shifts: LLM-as-Black-Box → Observable-Cognitive-System",
-      "tags": ["paradigm-shift", "level-4", "wisdom-ladder"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    }],
-    "process_memory": [{
-      "id": "mcp-structured-thinking-process-memory-2025-11-20",
-      "title": "Process Memory: MCP Structured Thinking (Complete)",
-      "date": "2025-11-20",
-      "type": "process_memory",
-      "path": "/process_memory/mcp-structured-thinking/2025-11-20-investigation.md",
-      "description": "Complete Levels 1-4: 7 artifacts, ~100KB wisdom",
-      "tags": ["process-memory", "investigation-complete", "level-1-4", "wisdom-ladder-complete"],
-      "author": "GitHub Copilot",
-      "status": "complete"
-    }]
   }
 ]
