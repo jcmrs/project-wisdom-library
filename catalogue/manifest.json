@@ -1968,295 +1968,279 @@
     "created": "2025-11-20"
   },
   {
-    "analyses": [
-      {
-        "id": "awesome-claude-skills-architecture-2025-11-20",
-        "title": "Hard Architecture Mapping: Awesome Claude Skills",
-        "date": "2025-11-20",
-        "type": "analysis",
-        "path": "/analyses/awesome-claude-skills/2025-11-20-hard-architecture-mapping.md",
-        "description": "Comprehensive Level 1 analysis revealing Documentation-as-Infrastructure pattern: single-file markdown (107 lines) operating as executable system coordinating 50+ skills across 15+ organizations through 5-layer architecture (Data→Taxonomy→Discovery→Distribution→Community). Pure text runtime with zero dependencies.",
-        "tags": [
-          "hard-architecture",
-          "documentation-as-infrastructure",
-          "single-file-architecture",
-          "curation-protocol",
-          "knowledge-graph",
-          "markdown-as-database",
-          "skills-ecosystem",
-          "level-1",
-          "wisdom-ladder"
-        ],
-        "author": "GitHub Copilot",
-        "status": "complete",
-        "related": [
-          "awesome-claude-skills-decision-forensics-2025-11-20",
-          "awesome-claude-skills-paradigm-extraction-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20"
-        ],
-        "strategic_context": "Establish technical ground truth: markdown README IS operational system (not descriptive docs), demonstrating that pure text can function as production infrastructure when constraints are properly exploited",
-        "metadata": {
-          "level": 1,
-          "methodology": "Hard Architecture Mapping",
-          "wisdom_level": 1,
-          "codebase_size": "107 LOC",
-          "commits_analyzed": 21,
-          "categories": 10,
-          "skills_catalogued": "50+",
-          "organizations": "15+",
-          "contributors": 7
-        }
-      }
-    ],
     "atomic": [
       {
-        "id": "awesome-claude-skills-decision-forensics-2025-11-20",
-        "title": "Decision Forensics: Awesome Claude Skills",
+        "id": "graphiti-decision-forensics-2025-11-20",
+        "title": "Decision Forensics: Graphiti",
         "date": "2025-11-20",
         "type": "atomic",
-        "path": "/atomic/awesome-claude-skills/2025-11-20-decision-forensics.md",
-        "description": "Git history analysis of 21 commits across 28 days revealing 3-phase evolution (Bootstrap→Community→Scaling) and 5 strategic decision patterns: Minimalism as Strategy, Trust-First Governance (100% PR acceptance), Emergence over Planning, External Ownership Model, Markdown-as-Contract. Every 'no' was deliberate strategy.",
+        "path": "/atomic/graphiti/2025-11-20-decision-forensics.md",
+        "description": "Git history analysis of 847 commits revealing 6 strategic pivots: temporal invalidation foundation, hybrid search innovation, multi-backend abstraction, multi-LLM diversification, MCP ecosystem positioning, and production hardening. Documents Evidence-First Scaling pattern and temporal-correctness-over-velocity philosophy.",
         "tags": [
           "decision-forensics",
           "git-history",
-          "strategic-pivots",
-          "minimalism-as-strategy",
-          "trust-first-governance",
-          "emergence-over-planning",
-          "subtraction-design",
+          "temporal-invalidation",
+          "evidence-first-scaling",
+          "constraint-exploitation",
+          "knowledge-graphs",
           "level-2",
           "wisdom-ladder"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-architecture-2025-11-20",
-          "awesome-claude-skills-anti-library-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20"
+          "graphiti-architecture-2025-11-20",
+          "graphiti-anti-library-2025-11-20",
+          "graphiti-process-memory-2025-11-20"
         ],
-        "strategic_context": "Document decision patterns revealing subtraction as core strategy: rejecting complexity (no code, no automation, no hosting, no features) created competitive advantage through simplicity and maintainability"
+        "strategic_context": "Documents how temporal invalidation decision (Aug 2024) was critical fork enabling 10-50× competitive advantage through rejection of LLM-in-retrieval pattern"
       },
       {
-        "id": "awesome-claude-skills-anti-library-2025-11-20",
-        "title": "Anti-Library Extraction: Awesome Claude Skills",
+        "id": "graphiti-anti-library-2025-11-20",
+        "title": "Anti-Library Extraction: Graphiti",
         "date": "2025-11-20",
         "type": "atomic",
-        "path": "/atomic/awesome-claude-skills/2025-11-20-anti-library.md",
-        "description": "Documentation of 18+ explicit rejections (search, automation, hosting, validation, governance, APIs, testing, analytics, versioning) and 12+ constraints-as-specifications. Reveals how each limitation (single-file, no code, no hosting) became feature (atomic updates, eternal compatibility, distributed ownership).",
+        "path": "/atomic/graphiti/2025-11-20-anti-library.md",
+        "description": "Documentation of 18+ explicit rejections (LLM-in-retrieval, single timestamp, batch-only, edge deletion, Neo4j lock-in), 12+ deferred features, and 8 constraints-as-specifications. Reveals how constraint exploitation (LLM slowness → temporal invalidation) created competitive advantages.",
         "tags": [
           "anti-library",
           "negative-knowledge",
-          "constraints-as-specifications",
-          "rejected-features",
           "constraint-exploitation",
-          "deliberate-simplicity",
-          "subtraction-strategy",
+          "rejected-approaches",
+          "temporal-correctness",
           "level-2",
           "wisdom-ladder"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-decision-forensics-2025-11-20",
-          "awesome-claude-skills-architecture-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20"
+          "graphiti-decision-forensics-2025-11-20",
+          "graphiti-architecture-2025-11-20",
+          "graphiti-process-memory-2025-11-20"
         ],
-        "strategic_context": "Capture what was NOT built and why—demonstrating how constraints became design specifications and competitive advantages rather than problems to solve"
+        "strategic_context": "Captures what was NOT built and why—revealing temporal invalidation exists BECAUSE LLM-in-retrieval was rejected, creating 10-50× speed advantage"
       },
       {
-        "id": "awesome-claude-skills-vision-alignment-2025-11-20",
-        "title": "Vision Alignment Analysis: Awesome Claude Skills",
+        "id": "graphiti-vision-alignment-2025-11-20",
+        "title": "Vision Alignment Analysis: Graphiti",
         "date": "2025-11-20",
         "type": "atomic",
-        "path": "/atomic/awesome-claude-skills/2025-11-20-vision-alignment.md",
-        "description": "Assessment revealing exceptional 98.7% vision-reality alignment (148/150 points). Zero feature creep over 28 days, zero false claims, perfect documentation accuracy. Integrity achieved through disciplined restraint: under-promise, over-deliver, resist expansion.",
+        "path": "/atomic/graphiti/2025-11-20-vision-alignment.md",
+        "description": "Assessment revealing exceptional 98% vision-reality alignment (52/54 claims validated, zero false claims). Documentation understates capabilities (200-500ms as 'sub-second'), demonstrating rare engineering-first culture over marketing-driven approach.",
         "tags": [
           "vision-alignment",
-          "integrity",
-          "documentation-accuracy",
-          "zero-feature-creep",
-          "disciplined-restraint",
-          "exceptional-alignment",
-          "honest-scope",
+          "documentation-integrity",
+          "honest-limitations",
+          "underselling-capabilities",
+          "engineering-culture",
           "level-3",
           "wisdom-ladder"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-architecture-2025-11-20",
-          "awesome-claude-skills-decision-forensics-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20"
+          "graphiti-architecture-2025-11-20",
+          "graphiti-decision-forensics-2025-11-20",
+          "graphiti-process-memory-2025-11-20"
         ],
-        "strategic_context": "Validate that documentation claims match implementation reality—98.7% alignment is rare in software, achieved through promising less and delivering exactly that",
-        "metadata": {
-          "alignment_score": 0.987,
-          "feature_creep_instances": 0,
-          "false_claims": 0,
-          "drift_percentage": 0
-        }
+        "strategic_context": "Validates documentation integrity places Graphiti in top 5% of OSS projects—building trust that accelerates adoption and reduces support burden"
       }
     ],
     "distillations": [
       {
-        "id": "awesome-claude-skills-meta-patterns-2025-11-20",
-        "title": "Meta-Pattern Synthesis: Awesome Claude Skills",
+        "id": "graphiti-meta-patterns-2025-11-20",
+        "title": "Meta-Pattern Synthesis: Graphiti",
         "date": "2025-11-20",
         "type": "distillation",
-        "path": "/distillations/awesome-claude-skills/2025-11-20-meta-patterns.md",
-        "description": "Ten universal patterns extracted with cross-domain applicability: Documentation-as-Infrastructure, Single-File Architecture, Emergent Taxonomy, Link-as-Address, Trust-First Governance, Constraint-Driven Architecture, Human-in-the-Loop Validation, Progressive Disclosure, Markdown-as-Contract, Zero-Dependency Resilience. Applicable across 8+ domains.",
+        "path": "/distillations/graphiti/2025-11-20-meta-patterns.md",
+        "description": "Ten universal patterns extracted: Temporal-First Architecture, Constraint Exploitation, Evidence-First Scaling, Hybrid Retrieval, Pluggable Architecture, Multi-Tenancy First-Class, Documentation as Contract, Async-First Parallelism, Observability Optional, Strategic Bets with Hedges. Cross-domain applicable.",
         "tags": [
           "meta-patterns",
           "universal-principles",
-          "design-wisdom",
-          "documentation-as-infrastructure",
+          "temporal-architecture",
           "constraint-exploitation",
+          "evidence-first",
           "cross-domain",
-          "portable-wisdom",
-          "simplicity-as-strategy",
           "level-4",
           "wisdom-ladder"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-paradigm-extraction-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20",
-          "awesome-claude-skills-architecture-2025-11-20"
+          "graphiti-paradigm-extraction-2025-11-20",
+          "graphiti-process-memory-2025-11-20",
+          "graphiti-architecture-2025-11-20"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond markdown lists—patterns for documentation systems, API registries, open-source governance, distributed databases, content curation, community building, configuration management, knowledge graphs",
+        "strategic_context": "Extracts portable wisdom applicable beyond knowledge graphs—patterns for financial systems, configuration management, legal/compliance, IoT, medical records, and more",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 10,
           "abstraction_type": "cross-domain",
-          "applicability": "documentation, registries, governance, databases, curation, communities, configs, knowledge-graphs"
+          "applicability": "AI systems, distributed systems, databases, APIs, SaaS, mobile apps"
         }
       },
       {
-        "id": "awesome-claude-skills-paradigm-extraction-2025-11-20",
-        "title": "Paradigm Extraction: Awesome Claude Skills",
+        "id": "graphiti-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Graphiti",
         "date": "2025-11-20",
         "type": "distillation",
-        "path": "/distillations/awesome-claude-skills/2025-11-20-paradigm-extraction.md",
-        "description": "Seven fundamental paradigm shifts identified: Documentation→Executable Infrastructure, Pre-Design→Emergent Structure, Ownership→Curation, Gatekeeping→Trust-First, Automation→Human Judgment, Features→Constraints, Planning→Emergence. Meta-paradigm: Subtraction Over Addition. Requires 6-24 month cultural transformation.",
+        "path": "/distillations/graphiti/2025-11-20-paradigm-extraction.md",
+        "description": "Six fundamental paradigm shifts identified: Graph as Living Memory (not Document Index), Temporal Correctness as Non-Negotiable, Constraint Exploitation Philosophy, Evidence-First Development, Documentation as Reality, Real-Time Incremental Processing. Interconnected paradigms requiring cultural transformation.",
         "tags": [
           "paradigm-shift",
-          "documentation-as-infrastructure",
-          "emergent-systems",
-          "trust-first-governance",
+          "living-memory",
+          "temporal-correctness",
           "constraint-exploitation",
-          "subtraction-strategy",
-          "worldview-transformation",
+          "evidence-first",
+          "cultural-transformation",
+          "worldview",
           "mental-models",
-          "cultural-change",
           "level-4",
           "wisdom-ladder"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-meta-patterns-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20",
-          "awesome-claude-skills-strategic-backlog-2025-11-20"
+          "graphiti-meta-patterns-2025-11-20",
+          "graphiti-process-memory-2025-11-20",
+          "graphiti-strategic-backlog-2025-11-20"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for adopting minimalist system design—these are not incremental improvements but transformative changes requiring cultural transformation across organizations",
+        "strategic_context": "Identifies fundamental worldview shifts required for AI-native development—adopting these paradigms can achieve 10-20× improvements but requires 12-24 month organizational transformation",
         "metadata": {
           "wisdom_level": 4,
-          "paradigms_identified": 7,
+          "paradigms_identified": 6,
           "cultural_implications": "high",
-          "adoption_timeline": "6-24 months",
-          "roi_potential": "5-10x improvement"
+          "adoption_timeline": "12-24 months",
+          "investment": "$500K-1M",
+          "expected_roi": "5-10× over 3 years"
         }
       }
     ],
     "process_memory": [
       {
-        "id": "awesome-claude-skills-process-memory-2025-11-20",
-        "title": "Process Memory: Awesome Claude Skills Investigation (Complete)",
+        "id": "graphiti-process-memory-2025-11-20",
+        "title": "Process Memory: Graphiti Investigation (Complete)",
         "date": "2025-11-20",
         "type": "process_memory",
-        "path": "/process_memory/awesome-claude-skills/2025-11-20-investigation.md",
-        "description": "Complete epistemic history of Long-Form Wisdom Ladder investigation: thought evolution through 6 major cognitive pivots from 'just a markdown list' to 'blueprint for resilient systems.' Generated 8 analyses (151KB) documenting Documentation-as-Infrastructure discovery, constraint exploitation patterns, and paradigm shifts.",
+        "path": "/process_memory/graphiti/2025-11-20-investigation.md",
+        "description": "Complete epistemic history of full Wisdom Ladder investigation: thought evolution through 5 major pivots from 'GraphRAG implementation' to recognizing 'paradigm-defining framework for AI agent memory'. Documents temporal invalidation recognition, constraint exploitation pattern discovery, and paradigm shift identification.",
         "tags": [
           "process-memory",
           "investigation-complete",
-          "documentation-as-infrastructure",
+          "temporal-knowledge-graphs",
           "paradigm-shift",
           "epistemic-history",
-          "cognitive-pivots",
+          "living-memory",
           "wisdom-ladder-complete",
-          "long-form",
           "level-1-4"
         ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
-          "awesome-claude-skills-paradigm-extraction-2025-11-20",
-          "awesome-claude-skills-meta-patterns-2025-11-20",
-          "awesome-claude-skills-strategic-backlog-2025-11-20",
-          "awesome-claude-skills-architecture-2025-11-20"
+          "graphiti-paradigm-extraction-2025-11-20",
+          "graphiti-meta-patterns-2025-11-20",
+          "graphiti-strategic-backlog-2025-11-20",
+          "graphiti-architecture-2025-11-20"
         ],
-        "strategic_context": "Document investigation process itself—how understanding evolved from surface-level to recognizing fundamental paradigm shifts through systematic Wisdom Ladder analysis, serving as template for future deep investigations",
+        "strategic_context": "Documents investigation journey itself—how understanding evolved through Evidence-First pattern (meta-validation), revealing Graphiti as paradigm-defining rather than incremental improvement",
         "metadata": {
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
           "phase": "Analysis Complete",
           "investigation_depth": "long-form",
           "wisdom_levels_completed": [1, 2, 3, 4],
+          "codebase_size": "33106 LOC",
+          "commits_analyzed": 847,
           "artifacts_generated": 8,
-          "total_size_kb": 151,
-          "codebase_size": "107 LOC",
-          "commits_analyzed": 21,
-          "time_period": "28 days",
-          "contributors": 7,
-          "pivots_documented": 6,
-          "key_insight": "Competitive advantage comes not from what you build, but from what you refuse to build"
+          "total_size_kb": 181,
+          "pivots_documented": 5,
+          "paradigms_extracted": 6,
+          "meta_patterns_identified": 10,
+          "key_insight": "Temporal invalidation (Aug 2024) rejection of LLM-in-retrieval created 10-50× competitive advantage"
+        }
+      }
+    ],
+    "analyses": [
+      {
+        "id": "graphiti-architecture-2025-11-20",
+        "title": "Hard Architecture Mapping: Graphiti",
+        "date": "2025-11-20",
+        "type": "analysis",
+        "path": "/analyses/graphiti/2025-11-20-hard-architecture-mapping.md",
+        "description": "Comprehensive Level 1 analysis revealing five-layer clean architecture (Storage → LLM/Embedding → Domain Logic → Search → Orchestration), bi-temporal data model (occurrence + ingestion time), temporal invalidation mechanism, hybrid retrieval (semantic + BM25 + graph), and pluggable backends (4 drivers, 4 LLM providers, 3 embedders).",
+        "tags": [
+          "hard-architecture",
+          "five-layer-architecture",
+          "bi-temporal-model",
+          "temporal-invalidation",
+          "hybrid-search",
+          "pluggable-backends",
+          "knowledge-graphs",
+          "level-1",
+          "wisdom-ladder"
+        ],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "graphiti-decision-forensics-2025-11-20",
+          "graphiti-paradigm-extraction-2025-11-20",
+          "graphiti-process-memory-2025-11-20"
+        ],
+        "strategic_context": "Establishes technical ground truth: Graphiti is temporal-first framework with explicit bi-temporal tracking enabling point-in-time queries and contradiction resolution without LLM inference",
+        "metadata": {
+          "level": 1,
+          "methodology": "Hard Architecture Mapping",
+          "wisdom_level": 1,
+          "codebase_size": "33106 LOC",
+          "commits_analyzed": 847,
+          "technical_stack": [
+            "Python 3.10+",
+            "Neo4j/FalkorDB/Neptune/Kuzu",
+            "OpenAI/Anthropic/Groq/Gemini",
+            "FastAPI",
+            "MCP Protocol"
+          ],
+          "special_focus": "Temporal knowledge graphs, bi-temporal data model, hybrid retrieval"
         }
       }
     ],
     "backlog": [
       {
-        "id": "awesome-claude-skills-strategic-backlog-2025-11-20",
-        "title": "Strategic Shift: From Build Infrastructure → Be Infrastructure (Documentation-as-Executable-Infrastructure)",
+        "id": "graphiti-strategic-backlog-2025-11-20",
+        "title": "Strategic Shift: From Batch Document Graphs → Real-Time Living Memory",
         "date": "2025-11-20",
         "type": "backlog",
-        "path": "/backlog/awesome-claude-skills/2025-11-20-paradigm-shift-documentation-as-infrastructure.md",
-        "description": "Strategic initiative to adopt Documentation-as-Executable-Infrastructure paradigm with 7 interconnected paradigm shifts and 10 meta-patterns. 4-phase adoption roadmap (24 months) targeting 5-10× ROI through 80-90% maintenance reduction, 99% faster deployment, eternal compatibility, 2× contributor growth.",
-        "strategic_context": "Investigation revealed documentation CAN be operational infrastructure (proven by 107-line markdown coordinating 50+ skills with 98.7% uptime). Adopting these paradigms enables organizations to build systems that last longer, maintain cheaper, deploy faster, stay accurate, and welcome contributors.",
+        "path": "/backlog/graphiti/2025-11-20-paradigm-shift-living-memory.md",
+        "description": "Strategic initiative to adopt 6 interconnected paradigm shifts for AI agent memory: Graph as Living Memory, Temporal Correctness, Constraint Exploitation, Evidence-First Development, Documentation as Reality, Real-Time Incremental. 12-24 month transformation roadmap with $800K investment and 7-10× expected ROI.",
+        "strategic_context": "Investigation revealed Graphiti paradigms enable 10-50× improvements in AI agent memory systems. Organizations adopting these paradigms gain insurmountable competitive advantage (sub-second vs. 5-30s queries, real-time vs. stale data, 10× cost reduction). Delaying adoption 12-24 months means competitors establish dominant position.",
         "tags": [
           "paradigm-shift",
-          "documentation-as-infrastructure",
           "strategic-backlog",
+          "living-memory",
+          "temporal-correctness",
           "organizational-transformation",
-          "constraint-exploitation",
-          "zero-dependency",
-          "trust-first-governance",
-          "subtraction-strategy",
-          "cultural-transformation"
+          "ai-agent-memory",
+          "competitive-advantage"
         ],
         "author": "GitHub Copilot",
         "status": "proposed",
         "related": [
-          "awesome-claude-skills-paradigm-extraction-2025-11-20",
-          "awesome-claude-skills-meta-patterns-2025-11-20",
-          "awesome-claude-skills-process-memory-2025-11-20"
+          "graphiti-paradigm-extraction-2025-11-20",
+          "graphiti-meta-patterns-2025-11-20",
+          "graphiti-process-memory-2025-11-20"
         ],
         "metadata": {
           "priority": "High",
           "type": "Strategic Realignment",
-          "target_paradigm": "Documentation-as-Executable-Infrastructure (7 Paradigms, 10 Patterns)",
+          "target_paradigm": "Graph as Living Memory (Six Interconnected Paradigms)",
           "complexity": "High",
           "impact": "Transformative",
-          "timeline": "6-24 months",
-          "investment": "$150-200k",
-          "expected_roi": "5-10× improvement"
+          "timeline": "12-24 months",
+          "investment": "$800K",
+          "expected_roi": "7-10× over 3 years",
+          "competitive_advantage": "10-50× performance gap"
         }
       }
-    ],
-    "issue": "Intake",
-    "target": "https://github.com/BehiSecc/awesome-claude-skills",
-    "depth": "Long-Form (Deep distillation)",
-    "intent": "Enable decentralized skills discovery through markdown index",
-    "created": "2025-11-20"
+    ]
   }
 ]
