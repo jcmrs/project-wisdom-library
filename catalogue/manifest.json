@@ -1635,8 +1635,6 @@
           "mental-models",
           "level-4",
           "wisdom-ladder"
-        ]
-      },
         ],
         "author": "GitHub Copilot",
         "status": "complete",
@@ -1705,6 +1703,7 @@
         ],
         "related": [
           "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
+        ],
         "author": "GitHub Copilot",
         "status": "complete",
         "related": [
@@ -1787,8 +1786,6 @@
           "epistemic-history",
           "wisdom-ladder-complete",
           "level-1-4"
-        ]
-      },
         ],
         "author": "GitHub Copilot",
         "status": "complete",
