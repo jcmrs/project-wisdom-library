@@ -46,7 +46,7 @@
           "kindroid-architecture-2025-11-19",
           "kindroid-process-memory-2025-11-19"
         ],
-        "strategic_context": "Capture what was NOT built and why—preventing repeated mistakes and revealing how constraints became design specifications"
+        "strategic_context": "Capture what was NOT built and why\u2014preventing repeated mistakes and revealing how constraints became design specifications"
       },
       {
         "id": "kindroid-vision-alignment-2025-11-19",
@@ -77,7 +77,7 @@
         "date": "2025-11-19",
         "type": "atomic",
         "path": "/atomic/thinking-tools-framework/2025-11-19-decision-forensics.md",
-        "description": "Level 2 analysis of git history and process memory revealing foundation-first strategy (95%+ work before first commit), quality without compromise enforcement (94.6%→100% test pass), explicit coordination protocol, and priority-based phased execution",
+        "description": "Level 2 analysis of git history and process memory revealing foundation-first strategy (95%+ work before first commit), quality without compromise enforcement (94.6%\u2192100% test pass), explicit coordination protocol, and priority-based phased execution",
         "tags": [
           "decision-forensics",
           "git-history",
@@ -126,7 +126,7 @@
           "thinking-tools-architecture-2025-11-19",
           "thinking-tools-process-memory-2025-11-19"
         ],
-        "strategic_context": "Capture what was NOT built and why—preventing repeated mistakes and revealing how constraints became design specifications",
+        "strategic_context": "Capture what was NOT built and why\u2014preventing repeated mistakes and revealing how constraints became design specifications",
         "metadata": {
           "level": 2,
           "methodology": "Anti-Library Extraction",
@@ -189,7 +189,7 @@
           "kindroid-process-memory-2025-11-19",
           "kindroid-architecture-2025-11-19"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide future AI-native software development",
+        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide future AI-native software development",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 8,
@@ -220,7 +220,7 @@
           "kindroid-process-memory-2025-11-19",
           "paradigm-shift-linguistic-software-2025-11-19"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for LLM-native software development—this is the philosophical foundation",
+        "strategic_context": "Identify fundamental worldview shifts required for LLM-native software development\u2014this is the philosophical foundation",
         "metadata": {
           "wisdom_level": 4,
           "paradigms_identified": 7,
@@ -254,7 +254,7 @@
           "thinking-tools-process-memory-2025-11-19",
           "thinking-tools-strategic-backlog-2025-11-19"
         ],
-        "strategic_context": "Identify fundamental worldview shifts required for AI-First software development—this reveals the philosophical foundation of treating AI as System Owner rather than assistant",
+        "strategic_context": "Identify fundamental worldview shifts required for AI-First software development\u2014this reveals the philosophical foundation of treating AI as System Owner rather than assistant",
         "metadata": {
           "wisdom_level": 4,
           "paradigms_identified": 8,
@@ -288,7 +288,7 @@
           "thinking-tools-process-memory-2025-11-19",
           "thinking-tools-architecture-2025-11-19"
         ],
-        "strategic_context": "Extract portable wisdom applicable beyond this project—patterns that can guide any AI-First software development effort",
+        "strategic_context": "Extract portable wisdom applicable beyond this project\u2014patterns that can guide any AI-First software development effort",
         "metadata": {
           "wisdom_level": 4,
           "patterns_identified": 10,
@@ -319,7 +319,7 @@
           "kindroid-meta-patterns-2025-11-19",
           "kindroid-paradigm-extraction-2025-11-19"
         ],
-        "strategic_context": "Document the investigation process itself—how understanding evolved from 'trivial' to 'profound' through systematic analysis",
+        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from 'trivial' to 'profound' through systematic analysis",
         "metadata": {
           "protocol_type": "SystemicInvestigation",
           "confidence": 0.95,
@@ -358,7 +358,7 @@
           "thinking-tools-vision-alignment-2025-11-19",
           "thinking-tools-meta-patterns-2025-11-19"
         ],
-        "strategic_context": "Document the investigation process itself—how understanding evolved from 'just prompt templates' to recognizing fundamental paradigm shifts through systematic analysis",
+        "strategic_context": "Document the investigation process itself\u2014how understanding evolved from 'just prompt templates' to recognizing fundamental paradigm shifts through systematic analysis",
         "metadata": {
           "protocol_type": "ParadigmExtraction",
           "confidence": 0.95,
@@ -399,7 +399,7 @@
           "kindroid-meta-patterns-2025-11-19",
           "kindroid-process-memory-2025-11-19"
         ],
-        "strategic_context": "Establish technical ground truth: this is not traditional software—it's linguistic software where prompts ARE the executable code",
+        "strategic_context": "Establish technical ground truth: this is not traditional software\u2014it's linguistic software where prompts ARE the executable code",
         "metadata": {
           "level": 1,
           "methodology": "Hard Architecture Mapping",
@@ -485,7 +485,7 @@
       },
       {
         "id": "thinking-tools-strategic-backlog-2025-11-19",
-        "title": "Strategic Shift: From AI-Assisted Development → AI-Owned Development",
+        "title": "Strategic Shift: From AI-Assisted Development \u2192 AI-Owned Development",
         "date": "2025-11-19",
         "type": "backlog",
         "path": "/backlog/thinking-tools-framework/2025-11-19-paradigm-shift-ai-first-development.md",
@@ -533,5 +533,13 @@
     "intent": "\"\"",
     "artifact": "backlog/thinking-tools-framework/2025-11-19-paradigm-shift-unknown.md",
     "created": "2025-11-19"
+  },
+  {
+    "issue": "19",
+    "target": "\"https://github.com/humanlayer/agentcontrolplane\"",
+    "depth": "\"Long-Form (Deep distillation)\"",
+    "intent": "\"\"",
+    "artifact": "backlog/agentcontrolplane/2025-11-20-paradigm-shift-unknown.md",
+    "created": "2025-11-20"
   }
 ]
