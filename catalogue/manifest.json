@@ -1052,7 +1052,9 @@
           "special_focus": "Extract ALL Skills patterns"
         }
       }
-    ],
+    ]
+  },
+  {
     "issue": "30",
     "target": "\"https://github.com/yusufkaraaslan/Skill_Seekers\"",
     "depth": "\"Long-Form (Deep distillation)\"",
