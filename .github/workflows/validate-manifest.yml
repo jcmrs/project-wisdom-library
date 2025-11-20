@@ -1,0 +1,53 @@
+name: Validate Manifest
+
+on:
+  push:
+    paths:
+      - 'catalogue/manifest.json'
+  pull_request:
+    paths:
+      - 'catalogue/manifest.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate manifest.json is valid JSON
+        run: |
+          echo "Validating catalogue/manifest.json..."
+          python3 -m json.tool catalogue/manifest.json > /dev/null
+          echo "✓ manifest.json is valid JSON"
+
+      - name: Check manifest structure
+        run: |
+          echo "Checking manifest structure..."
+          python3 << 'EOF'
+          import json
+          import sys
+
+          with open('catalogue/manifest.json') as f:
+              data = json.load(f)
+
+          # Validate it's a list
+          if not isinstance(data, list):
+              print("✗ Error: manifest.json must be a list of investigation groups")
+              sys.exit(1)
+
+          # Validate each group structure
+          for i, group in enumerate(data):
+              if not isinstance(group, dict):
+                  print(f"✗ Error: Investigation group {i} must be a dict")
+                  sys.exit(1)
+
+              # Check that it has at least one category
+              categories = ['analyses', 'atomic', 'distillations', 'process_memory', 'backlog', 'ideas']
+              has_category = any(cat in group for cat in categories)
+              
+              if not has_category:
+                  print(f"✗ Warning: Investigation group {i} has no artifact categories")
+
+          print(f"✓ Manifest structure is valid ({len(data)} investigation groups)")
+          EOF
