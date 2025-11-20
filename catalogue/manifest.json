@@ -1608,28 +1608,6 @@
           "abstraction_type": "cross-domain",
           "applicability": "AI systems, web apps, APIs, distributed systems"
         }
-      },
-      {
-        "id": "claude-code-plugins-plus-paradigm-extraction-2025-11-20",
-        "title": "Paradigm Extraction: Claude Code Plugins Plus",
-        "date": "2025-11-20",
-        "type": "distillation",
-        "path": "/distillations/claude-code-plugins-plus/2025-11-20-paradigm-extraction.md",
-        "description": "Seven paradigm shifts for AI-native development",
-        "tags": [
-          "paradigm-shift",
-          "ai-native-development",
-          "level-4",
-          "wisdom-ladder"
-        ],
-        "related": [
-          "claude-code-plugins-plus-meta-patterns-2025-11-20"
-        ],
-        "strategic_context": "Identify worldview shifts required for AI-native development",
-        "metadata": {
-          "wisdom_level": 4,
-          "paradigms_identified": 7
-        }
       }
     ],
     "process_memory": [
