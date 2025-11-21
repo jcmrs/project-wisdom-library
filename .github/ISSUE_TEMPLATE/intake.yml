@@ -68,15 +68,13 @@ body:
     attributes:
       value: |
         ## 🧠 Agent Investigation Payload
-
         ```yaml
         agent_prompt:
-          target: ${{ target }}
-          depth: ${{ analysis-type }}
-          tools: ${{ menu-items | join(', ') }}
-          intent: ${{ intent }}
-          clues: ${{ special-requests }}
+          target: ${{ inputs.target }}
+          depth: ${{ inputs.analysis-type }}
+          tools:
+            - ${{ join(inputs.menu-items, '\n            - ') }}
+          intent: ${{ inputs.intent }}
+          clues: ${{ inputs.special-requests }}
         ```
-        <!-- copilot-agent:payload -->
-
-        *If an error occurs parsing the payload or required fields are missing, Copilot will comment here describing the error and await correction before proceeding.*
+        *This block contains the structured data for the agent.*

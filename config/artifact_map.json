@@ -1,0 +1,30 @@
+{
+    "Level 1: Hard Architecture Mapping": {
+        "template": "templates/ATOMIC_ANALYSIS_TEMPLATE.md",
+        "output_path": "analyses/{subject_slug}/{today}-hard-architecture-mapping.md"
+    },
+    "Level 2: Decision Forensics": {
+        "template": "templates/ATOMIC_ANALYSIS_TEMPLATE.md",
+        "output_path": "atomic/{subject_slug}/{today}-decision-forensics.md"
+    },
+    "Level 2: Anti-Library Extraction": {
+        "template": "templates/ATOMIC_ANALYSIS_TEMPLATE.md",
+        "output_path": "atomic/{subject_slug}/{today}-anti-library.md"
+    },
+    "Level 3: Vision Alignment": {
+        "template": "templates/ATOMIC_ANALYSIS_TEMPLATE.md",
+        "output_path": "atomic/{subject_slug}/{today}-vision-alignment.md"
+    },
+    "Level 3: Process Memory": {
+        "template": "templates/PROCESS_MEMORY_TEMPLATE.md",
+        "output_path": "process_memory/{subject_slug}/{today}-investigation.md"
+    },
+    "Level 4: Meta-Pattern Synthesis": {
+        "template": "templates/DISTILLATION_TEMPLATE.md",
+        "output_path": "distillations/{subject_slug}/{today}-meta-patterns.md"
+    },
+    "Level 4: Paradigm Extraction": {
+        "template": "templates/DISTILLATION_TEMPLATE.md",
+        "output_path": "distillations/{subject_slug}/{today}-paradigm-extraction.md"
+    }
+}

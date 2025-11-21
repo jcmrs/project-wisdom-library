@@ -1,29 +1,36 @@
+import yaml
 import re
+import os
 
-with open("issue_body.txt") as f:
+# This script will require the PyYAML package.
+# Ensure it is installed in the GitHub Actions workflow:
+# pip install PyYAML
+
+with open("issue_body.txt", "r", encoding="utf-8") as f:
     issue_body = f.read()
 
-def find_section(title):
-    m = re.search(rf"{title}\n\n([\s\S]*?)(\n(?=###)|$)", issue_body)
-    return m.group(1).strip() if m else ""
+# Find the YAML code block
+match = re.search(r"```yaml\n(.*?)\n```", issue_body, re.DOTALL)
 
-depth = find_section("### Investigation Depth")
-target = find_section("### Target Repository URL")
-methodologies_raw = find_section("### Methodology (The Wisdom Ladder)")
-tools = []
-for line in methodologies_raw.splitlines():
-    m = re.match(r"- \[x\] (.+)", line.strip())
-    if m:
-        tools.append(m.group(1).strip())
-tools_str = ", ".join(tools)
+if match:
+    yaml_content = match.group(1)
+    data = yaml.safe_load(yaml_content)
 
-intent = find_section("### Intent / Strategic Context (Optional)")
-if intent.lower() == "_no response_":
-    intent = ""
+    # Access the nested agent_prompt dictionary
+    agent_data = data.get("agent_prompt", {})
 
-clues = find_section("### Special Observations (Optional)")
-if clues.lower() == "_no response_":
-    clues = ""
+    depth = agent_data.get("depth", "")
+    target = agent_data.get("target", "")
+    intent = agent_data.get("intent", "")
+    clues = agent_data.get("clues", "")
+    
+    # The 'tools' in YAML are expected to be a list of strings
+    tools_list = agent_data.get("tools", [])
+    tools_str = ", ".join(tools_list)
+
+else:
+    # Fallback to empty values if no YAML block is found
+    depth, target, intent, clues, tools_str = "", "", "", "", ""
 
 with open("issue_vars.sh", "w") as out:
     out.write(f'AGENT_TARGET="{target}"\n')
@@ -31,3 +38,4 @@ with open("issue_vars.sh", "w") as out:
     out.write(f'AGENT_TOOLS="{tools_str}"\n')
     out.write(f'AGENT_INTENT="{intent}"\n')
     out.write(f'AGENT_CLUES="{clues}"\n')
+
