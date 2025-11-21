@@ -73,6 +73,76 @@ def main():
         content = content.replace(old_pattern_2, new_pattern_2)
         fixes_applied.append("Line ~1558: Added missing closing bracket and related array")
     
+    # Fix 3: Missing closing bracket after "wisdom-ladder" before "id" (line ~1605-1613)
+    old_pattern_3 = '''          "wisdom-ladder"
+        "id":'''
+    
+    new_pattern_3 = '''          "wisdom-ladder"
+        ]
+      },
+      {
+        "id":'''
+    
+    if old_pattern_3 in content:
+        content = content.replace(old_pattern_3, new_pattern_3)
+        fixes_applied.append("Line ~1605-1613: Added missing closing bracket before new object")
+    
+    # Fix 4: Missing closing bracket after "wisdom-ladder" before string (line ~1651-1664)
+    # This is for entries where there's a related array that starts with a string
+    old_pattern_4 = '''          "wisdom-ladder"
+          "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
+        ],'''
+    
+    new_pattern_4 = '''          "wisdom-ladder"
+        ],
+        "related": [
+          "claude-code-plugins-plus-paradigm-extraction-2025-11-20"
+        ],'''
+    
+    if old_pattern_4 in content:
+        content = content.replace(old_pattern_4, new_pattern_4)
+        fixes_applied.append("Line ~1651-1664: Added missing closing bracket and related array")
+    
+    # Fix 5: Missing closing bracket after "level-1-4" before "id" (line ~1708-1712)
+    old_pattern_5 = '''          "level-1-4"
+        "id":'''
+    
+    new_pattern_5 = '''          "level-1-4"
+        ]
+      },
+      {
+        "id":'''
+    
+    if old_pattern_5 in content:
+        content = content.replace(old_pattern_5, new_pattern_5)
+        fixes_applied.append("Line ~1708-1712: Added missing closing bracket before new object")
+    
+    # Fix 6: Missing closing brace for metadata before string (line ~1699-1700)
+    old_pattern_6 = '''          "applicability": "AI systems, web apps, APIs, distributed systems"
+          "claude-code-plugins-plus-meta-patterns-2025-11-20"
+        ],'''
+    
+    new_pattern_6 = '''          "applicability": "AI systems, web apps, APIs, distributed systems"
+        }
+      },
+      {
+        "id": "claude-code-plugins-plus-paradigm-extraction-2025-11-20",
+        "title": "Paradigm Extraction: Claude Code Plugins Plus",
+        "date": "2025-11-20",
+        "type": "distillation",
+        "path": "/distillations/claude-code-plugins-plus/2025-11-20-paradigm-extraction.md",
+        "description": "7 fundamental paradigm shifts",
+        "tags": ["paradigm-extraction", "worldview-shifts"],
+        "author": "GitHub Copilot",
+        "status": "complete",
+        "related": [
+          "claude-code-plugins-plus-meta-patterns-2025-11-20"
+        ],'''
+    
+    if old_pattern_6 in content:
+        content = content.replace(old_pattern_6, new_pattern_6)
+        fixes_applied.append("Line ~1699-1700: Added missing closing brace and restructured entry")
+    
     if fixes_applied:
         for fix in fixes_applied:
             print(f"   ✓ Fixed: {fix}")
