@@ -42,7 +42,7 @@ jobs:
 
       - name: 'Stage Generated Files'
         run: |
-          git add analyses/ atomic/ backlog/ distillations/ process_memory/ catalogue/fragments/
+          git add .
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
