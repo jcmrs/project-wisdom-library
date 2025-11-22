@@ -4,7 +4,7 @@ Long-Form (Deep distillation)
 
 ### Target Repository URL
 
-https://github.com/basicmachines-co/basic-memory
+https://github.com/GibsonAI/Memori
 
 ### Methodology (The Wisdom Ladder)
 
